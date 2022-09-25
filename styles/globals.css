@@ -6,6 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+h1 {
+  margin: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -15,12 +19,17 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+:root {
+  --pastel-red-bg: #ffa9a9;
+  --pastel-orange-bg: #fedd9e;
+  --pastel-green-bg: #ceffc9;
+  --pastel-blue-bg: #caf1ff;
+}
+
+.visible_view {
+  z-index: 100;
+}
+
+.hidden_view {
+  z-index: 0;
 }

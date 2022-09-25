@@ -12,6 +12,8 @@ const webpackConfig = {
       resolve: {
         alias: {
           "@assets": path.join(__dirname, "assets"),
+          "@styles": path.join(__dirname, "styles"),
+          "@utils": path.join(__dirname, "utils"),
           "@views": path.join(__dirname, "components/views"),
         },
       },

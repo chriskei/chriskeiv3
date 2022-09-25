@@ -2,15 +2,29 @@ import React from "react";
 import Image from "next/image";
 
 import { ChevronsUp } from "@assets";
+import { viewMap } from "@utils";
 
-const CommonView = ({ setView, children }) => {
+const CommonView = ({
+  thisView,
+  currentView,
+  setCurrentView,
+  lastOtherView,
+  styles,
+  children,
+}) => {
   return (
-    <div>
+    <div
+      className={`${styles.view_container} ${
+        currentView === thisView || lastOtherView === thisView
+          ? "visible_view"
+          : "hidden_view"
+      }`}
+    >
       <Image
         src={ChevronsUp}
-        width={100}
-        height={100}
-        onClick={() => setView("nav")}
+        width={50}
+        height={50}
+        onClick={() => setCurrentView(viewMap.navView)}
       />
       {children}
     </div>

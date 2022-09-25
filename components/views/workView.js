@@ -1,10 +1,18 @@
 import React from "react";
 
+import styles from "@styles/workView.module.css";
+import { viewMap } from "@utils";
 import CommonView from "./_commonView";
 
-const workView = ({ setView }) => {
+const workView = ({ currentView, setCurrentView, lastOtherView }) => {
   return (
-    <CommonView setView={setView}>
+    <CommonView
+      thisView={viewMap.workView}
+      currentView={currentView}
+      setCurrentView={setCurrentView}
+      lastOtherView={lastOtherView}
+      styles={styles}
+    >
       <h1>work view</h1>
     </CommonView>
   );

@@ -1,10 +1,18 @@
 import React from "react";
 
+import styles from "@styles/aboutView.module.css";
+import { viewMap } from "@utils";
 import CommonView from "./_commonView";
 
-const AboutView = ({ setView }) => {
+const AboutView = ({ currentView, setCurrentView, lastOtherView }) => {
   return (
-    <CommonView setView={setView}>
+    <CommonView
+      thisView={viewMap.aboutView}
+      currentView={currentView}
+      setCurrentView={setCurrentView}
+      lastOtherView={lastOtherView}
+      styles={styles}
+    >
       <h1>about view</h1>
     </CommonView>
   );
