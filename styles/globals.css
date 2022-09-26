@@ -8,9 +8,15 @@ body {
   overflow-y: hidden;
 }
 
+@font-face {
+  font-family: Dune;
+  src: url("../assets/Dune_Rise.otf");
+}
+
 h1 {
   margin: 0;
   color: white;
+  font: 48px Dune;
 }
 
 a {
@@ -24,6 +30,7 @@ a {
 
 :root {
   --pastel-blue-bg: #acedff;
+  --pastel-blue-darker-bg: #52d9ff;
   --dark-blue-bg: #01294e;
   --scarlet-bg: #ff3c13;
   --orange-bg: #ffb428;
