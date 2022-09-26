@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
-import { ChevronsUp } from "@assets";
+import { ChevronUpIcon } from "@assets";
+import commonViewStyles from "@styles/commonView.module.css";
 import { viewMap } from "@utils";
 
 const CommonView = ({
@@ -20,12 +21,14 @@ const CommonView = ({
           : "hidden_view"
       }`}
     >
-      <Image
-        src={ChevronsUp}
-        width={50}
-        height={50}
-        onClick={() => setCurrentView(viewMap.navView)}
-      />
+      <div className={commonViewStyles.icon_container}>
+        <Image
+          src={ChevronUpIcon}
+          width={32}
+          height={32}
+          onClick={() => setCurrentView(viewMap.navView)}
+        />
+      </div>
       {children}
     </div>
   );

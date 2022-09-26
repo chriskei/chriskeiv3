@@ -1,5 +1,7 @@
 import React from "react";
+import Image from "next/image";
 
+import { AstronautGif, TelescopeGif, AirplaneGif } from "@assets";
 import styles from "@styles/navView.module.css";
 import { viewMap } from "@utils";
 
@@ -10,30 +12,33 @@ const NavView = ({ currentView, setCurrentView, setLastOtherView }) => {
         currentView === viewMap.navView ? "visible_view" : "hidden_view"
       }`}
     >
-      <h1
+      <div
         onClick={() => {
           setCurrentView(viewMap.aboutView);
           setLastOtherView(viewMap.aboutView);
         }}
+        className={styles.gif_container}
       >
-        about
-      </h1>
-      <h1
+        <Image src={AstronautGif} width={300} height={300} />
+      </div>
+      <div
         onClick={() => {
           setCurrentView(viewMap.workView);
           setLastOtherView(viewMap.workView);
         }}
+        className={styles.gif_container}
       >
-        work
-      </h1>
-      <h1
+        <Image src={TelescopeGif} width={300} height={300} />
+      </div>
+      <div
         onClick={() => {
           setCurrentView(viewMap.contactView);
           setLastOtherView(viewMap.contactView);
         }}
+        className={styles.gif_container}
       >
-        contact
-      </h1>
+        <Image src={AirplaneGif} width={300} height={300} />
+      </div>
     </div>
   );
 };

@@ -1,0 +1,7 @@
+.icon_container {
+  border: 3px solid white;
+  border-radius: 50%;
+  width: fit-content;
+  cursor: pointer;
+  margin: 1rem auto;
+}

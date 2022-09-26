@@ -10,11 +10,11 @@ const Home = () => {
 
   return (
     <div
-      className={
+      className={`${styles.root_container} ${
         currentView === viewMap.navView
           ? styles.show_nav_view
           : styles.show_other_view
-      }
+      }`}
     >
       <NavView
         currentView={currentView}

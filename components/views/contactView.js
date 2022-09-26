@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "@styles/contactView.module.css";
 import { viewMap } from "@utils";
-import CommonView from "./_commonView";
+import CommonView from "./commonView";
 
 const ContactView = ({ currentView, setCurrentView, lastOtherView }) => {
   return (

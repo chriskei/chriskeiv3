@@ -4,10 +4,13 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  overflow-y: hidden;
 }
 
 h1 {
   margin: 0;
+  color: white;
 }
 
 a {
@@ -20,10 +23,10 @@ a {
 }
 
 :root {
-  --pastel-red-bg: #ffa9a9;
-  --pastel-orange-bg: #fedd9e;
-  --pastel-green-bg: #ceffc9;
-  --pastel-blue-bg: #caf1ff;
+  --pastel-blue-bg: #acedff;
+  --dark-blue-bg: #01294e;
+  --scarlet-bg: #ff3c13;
+  --orange-bg: #ffb428;
 }
 
 .visible_view {

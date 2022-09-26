@@ -1,11 +1,12 @@
-.show_nav_view {
+.root_container {
   position: absolute;
-  top: 0;
   transition: top 1s ease-in-out;
 }
 
+.show_nav_view {
+  top: 0;
+}
+
 .show_other_view {
-  position: absolute;
   top: -100vh;
-  transition: top 1s ease-in-out;
 }
