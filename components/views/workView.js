@@ -11,7 +11,7 @@ const workView = ({ currentView, setCurrentView, lastOtherView }) => {
       currentView={currentView}
       setCurrentView={setCurrentView}
       lastOtherView={lastOtherView}
-      styles={styles}
+      thisViewStyles={styles}
     >
       <h1>work view</h1>
     </CommonView>

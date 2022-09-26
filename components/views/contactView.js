@@ -11,7 +11,7 @@ const ContactView = ({ currentView, setCurrentView, lastOtherView }) => {
       currentView={currentView}
       setCurrentView={setCurrentView}
       lastOtherView={lastOtherView}
-      styles={styles}
+      thisViewStyles={styles}
     >
       <h1>contact view</h1>
     </CommonView>

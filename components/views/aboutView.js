@@ -11,7 +11,7 @@ const AboutView = ({ currentView, setCurrentView, lastOtherView }) => {
       currentView={currentView}
       setCurrentView={setCurrentView}
       lastOtherView={lastOtherView}
-      styles={styles}
+      thisViewStyles={styles}
     >
       <h1>about view</h1>
     </CommonView>
