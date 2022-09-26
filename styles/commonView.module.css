@@ -3,5 +3,7 @@
   border-radius: 50%;
   width: fit-content;
   cursor: pointer;
-  margin: 1rem auto;
+  margin: 2rem auto;
+  height: 32px;
+  width: 32px;
 }

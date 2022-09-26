@@ -3,6 +3,7 @@ import { AboutView, ContactView, NavView, WorkView } from "@views";
 
 import styles from "@styles/home.module.css";
 import { viewMap } from "@utils";
+import { AttributionView } from "../components/views";
 
 const Home = () => {
   const [currentView, setCurrentView] = useState(viewMap.navView);
@@ -11,11 +12,14 @@ const Home = () => {
   return (
     <div
       className={`${styles.root_container} ${
-        currentView === viewMap.navView
+        currentView === viewMap.attributionView
+          ? styles.show_attribution_view
+          : currentView === viewMap.navView
           ? styles.show_nav_view
           : styles.show_other_view
       }`}
     >
+      <AttributionView setCurrentView={setCurrentView} />
       <NavView
         currentView={currentView}
         setCurrentView={setCurrentView}

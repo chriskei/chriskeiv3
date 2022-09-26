@@ -18,6 +18,7 @@ const NavView = ({ currentView, setCurrentView, setLastOtherView }) => {
           src={InfoIcon}
           width={32}
           height={32}
+          onClick={() => setCurrentView(viewMap.attributionView)}
           className={styles.icon_container}
         />
       </div>
