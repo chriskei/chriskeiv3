@@ -4,15 +4,9 @@ import styles from "@styles/attributionView.module.css";
 import { viewMap } from "@utils";
 import CommonView from "./commonView";
 
-const AttributionView = ({ currentView, setCurrentView, lastOtherView }) => {
+const AttributionView = () => {
   return (
-    <CommonView
-      thisView={viewMap.attributionView}
-      currentView={currentView}
-      setCurrentView={setCurrentView}
-      lastOtherView={lastOtherView}
-      thisViewStyles={styles}
-    >
+    <CommonView thisView={viewMap.attributionView} thisViewStyles={styles}>
       <h1>attribution view</h1>
       <ul>
         <li>https://feathericons.com/</li>

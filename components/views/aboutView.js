@@ -4,15 +4,9 @@ import styles from "@styles/aboutView.module.css";
 import { viewMap } from "@utils";
 import CommonView from "./commonView";
 
-const AboutView = ({ currentView, setCurrentView, lastOtherView }) => {
+const AboutView = () => {
   return (
-    <CommonView
-      thisView={viewMap.aboutView}
-      currentView={currentView}
-      setCurrentView={setCurrentView}
-      lastOtherView={lastOtherView}
-      thisViewStyles={styles}
-    >
+    <CommonView thisView={viewMap.aboutView} thisViewStyles={styles}>
       <h1>about view</h1>
     </CommonView>
   );

@@ -4,15 +4,9 @@ import styles from "@styles/workView.module.css";
 import { viewMap } from "@utils";
 import CommonView from "./commonView";
 
-const workView = ({ currentView, setCurrentView, lastOtherView }) => {
+const workView = () => {
   return (
-    <CommonView
-      thisView={viewMap.workView}
-      currentView={currentView}
-      setCurrentView={setCurrentView}
-      lastOtherView={lastOtherView}
-      thisViewStyles={styles}
-    >
+    <CommonView thisView={viewMap.workView} thisViewStyles={styles}>
       <h1>work view</h1>
     </CommonView>
   );

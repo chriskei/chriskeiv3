@@ -1,26 +1,23 @@
 import React from "react";
 import Image from "next/image";
 
-import { viewMap } from "@utils";
+import { ViewContext } from "@pages/home";
 
-const ViewImage = ({
-  viewMapKey,
-  imgSrc,
-  imgSize,
-  setCurrentView,
-  setLastOtherView,
-  className,
-}) => {
+const ViewImage = ({ thisView, imgSrc, imgSize, className }) => {
   return (
-    <div
-      onClick={() => {
-        setCurrentView(viewMap[viewMapKey]);
-        setLastOtherView(viewMap[viewMapKey]);
-      }}
-      className={className}
-    >
-      <Image src={imgSrc} width={imgSize} height={imgSize} />
-    </div>
+    <ViewContext.Consumer>
+      {({ setCurrentView, setLastOtherView }) => (
+        <div
+          onClick={() => {
+            setCurrentView(thisView);
+            setLastOtherView(thisView);
+          }}
+          className={className}
+        >
+          <Image src={imgSrc} width={imgSize} height={imgSize} />
+        </div>
+      )}
+    </ViewContext.Consumer>
   );
 };
 
