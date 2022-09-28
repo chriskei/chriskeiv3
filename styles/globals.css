@@ -17,7 +17,7 @@ body {
 h1 {
   margin: 0;
   color: white;
-  font: 48px Dune;
+  font: bold 48px Dune;
 }
 
 a {
@@ -30,11 +30,12 @@ a {
 }
 
 :root {
-  --pastel-blue-bg: #acedff;
-  --pastel-blue-darker-bg: #52d9ff;
-  --dark-blue-bg: #01294e;
-  --scarlet-bg: #ff3c13;
-  --orange-bg: #ffb428;
+  --pastel-blue-bg: rgb(172, 237, 255);
+  --pastel-blue-darker-bg: rgb(82, 217, 255);
+  --dark-blue-bg: rgb(3, 41, 79);
+  --scarlet-bg: rgb(252, 58, 1);
+  --orange-bg: rgb(253, 180, 0);
+  --blue-bg: rgb(26, 171, 218);
 }
 
 .visible_view {

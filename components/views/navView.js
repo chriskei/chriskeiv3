@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "next/image";
 
 import { AstronautGif, TelescopeGif, AirplaneGif, InfoIcon } from "@assets";
 import styles from "@styles/navView.module.css";
 import { viewMap } from "@utils";
+import { ViewImage } from "../navView/viewImage";
 
 const NavView = ({ currentView, setCurrentView, setLastOtherView }) => {
   return (
@@ -14,42 +14,40 @@ const NavView = ({ currentView, setCurrentView, setLastOtherView }) => {
     >
       <div className={styles.name_container}>
         <h1 className="dune_font">Christopher Kei</h1>
-        <Image
-          src={InfoIcon}
-          width={32}
-          height={32}
-          onClick={() => setCurrentView(viewMap.attributionView)}
+        <ViewImage
+          viewMapKey="attributionView"
+          imgSrc={InfoIcon}
+          imgSize={32}
+          setCurrentView={setCurrentView}
+          setLastOtherView={setLastOtherView}
           className={styles.icon_container}
         />
       </div>
       <div className={styles.icons_container}>
-        <div
-          onClick={() => {
-            setCurrentView(viewMap.aboutView);
-            setLastOtherView(viewMap.aboutView);
-          }}
+        <ViewImage
+          viewMapKey="aboutView"
+          imgSrc={AstronautGif}
+          imgSize={300}
+          setCurrentView={setCurrentView}
+          setLastOtherView={setLastOtherView}
           className={styles.icon_container}
-        >
-          <Image src={AstronautGif} width={300} height={300} />
-        </div>
-        <div
-          onClick={() => {
-            setCurrentView(viewMap.workView);
-            setLastOtherView(viewMap.workView);
-          }}
+        />
+        <ViewImage
+          viewMapKey="workView"
+          imgSrc={TelescopeGif}
+          imgSize={300}
+          setCurrentView={setCurrentView}
+          setLastOtherView={setLastOtherView}
           className={styles.icon_container}
-        >
-          <Image src={TelescopeGif} width={300} height={300} />
-        </div>
-        <div
-          onClick={() => {
-            setCurrentView(viewMap.contactView);
-            setLastOtherView(viewMap.contactView);
-          }}
-          className={styles.icon_container}
-        >
-          <Image src={AirplaneGif} width={300} height={300} />
-        </div>
+        />
+        <ViewImage
+          viewMapKey="contactView"
+          imgSrc={AirplaneGif}
+          imgSize={300}
+          setCurrentView={setCurrentView}
+          setLastOtherView={setLastOtherView}
+          className={`${styles.icon_container} ${styles.fade_sides}`}
+        />
       </div>
     </div>
   );

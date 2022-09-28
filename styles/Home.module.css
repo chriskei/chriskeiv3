@@ -3,14 +3,10 @@
   transition: top 1s ease-in-out;
 }
 
-.show_attribution_view {
+.show_nav_view {
   top: 0;
 }
 
-.show_nav_view {
-  top: -100vh;
-}
-
 .show_other_view {
-  top: -200vh;
+  top: -100vh;
 }

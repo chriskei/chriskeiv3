@@ -1,13 +1,18 @@
 import React from "react";
-import Image from "next/image";
 
-import { ChevronDownIcon } from "@assets";
 import styles from "@styles/attributionView.module.css";
-import { viewMap } from "../../utils/views";
+import { viewMap } from "@utils";
+import CommonView from "./commonView";
 
-const AttributionView = ({ setCurrentView }) => {
+const AttributionView = ({ currentView, setCurrentView, lastOtherView }) => {
   return (
-    <div className={styles.view_container}>
+    <CommonView
+      thisView={viewMap.attributionView}
+      currentView={currentView}
+      setCurrentView={setCurrentView}
+      lastOtherView={lastOtherView}
+      thisViewStyles={styles}
+    >
       <h1>attribution view</h1>
       <ul>
         <li>https://feathericons.com/</li>
@@ -18,15 +23,7 @@ const AttributionView = ({ setCurrentView }) => {
           https://www.awwwards.com/inspiration/cursor-interaction-playing-with-words
         </li>
       </ul>
-      <div className={styles.icon_container}>
-        <Image
-          src={ChevronDownIcon}
-          width={32}
-          height={32}
-          onClick={() => setCurrentView(viewMap.navView)}
-        />
-      </div>
-    </div>
+    </CommonView>
   );
 };
 
