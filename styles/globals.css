@@ -14,10 +14,24 @@ body {
   src: url("../assets/Dune_Rise.otf");
 }
 
+@font-face {
+  font-family: Cocomat;
+  src: url("../assets/Cocomat\ Pro\ Medium.otf");
+}
+
 h1 {
-  margin: 0;
   color: white;
   font: bold 48px Dune;
+}
+
+h2 {
+  color: white;
+  font: bold 42px Dune;
+}
+
+p {
+  color: white;
+  font: lighter 22px Cocomat;
 }
 
 a {
@@ -33,6 +47,7 @@ a {
   --pastel-blue-bg: rgb(172, 237, 255);
   --pastel-blue-darker-bg: rgb(82, 217, 255);
   --dark-blue-bg: rgb(3, 41, 79);
+  --dark-blue-accent: rgb(47, 151, 243);
   --scarlet-bg: rgb(252, 58, 1);
   --orange-bg: rgb(253, 180, 0);
   --blue-bg: rgb(26, 171, 218);

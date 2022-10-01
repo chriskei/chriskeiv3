@@ -27,7 +27,7 @@ const CommonView = ({ thisView, thisViewStyles, children }) => {
               onClick={() => setCurrentView(viewMap.navView)}
             />
           </div>
-          {children}
+          <div className={styles.children_container}>{children}</div>
         </div>
       )}
     </ViewContext.Consumer>
