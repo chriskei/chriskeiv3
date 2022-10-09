@@ -11,7 +11,11 @@
   background-color: var(--scarlet-accent-1);
   width: 375px;
   border-radius: 8px;
-  cursor: pointer;
+  cursor: grab;
+}
+
+.exp_list_item_container:active {
+  cursor: grabbing;
 }
 
 .exp_list_item {
