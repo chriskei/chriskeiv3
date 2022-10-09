@@ -49,6 +49,8 @@ a {
   --dark-blue-bg: rgb(3, 41, 79);
   --dark-blue-accent: rgb(47, 151, 243);
   --scarlet-bg: rgb(252, 58, 1);
+  --scarlet-accent-1: rgb(254, 116, 74);
+  --scarlet-accent-2: rgb(254, 172, 146);
   --orange-bg: rgb(253, 180, 0);
   --blue-bg: rgb(26, 171, 218);
 }
