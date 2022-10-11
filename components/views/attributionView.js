@@ -17,6 +17,7 @@ const AttributionView = () => {
         <li>
           https://www.awwwards.com/inspiration/cursor-interaction-playing-with-words
         </li>
+        <li>https://css-tricks.com/practical-css-scroll-snapping/</li>
         <li>https://github.com/nanxiaobei/react-spring-dnd</li>
       </ul>
     </CommonView>
