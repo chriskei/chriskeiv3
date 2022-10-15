@@ -2,11 +2,12 @@ import React from "react";
 
 import styles from "@styles/contactView.module.css";
 import { contactStates } from "./contactStates";
+import { contactLinks } from "./contactLinks";
 
-const ContactLink = ({ href, contactState, setHovering }) => {
+const ContactLink = ({ contactState, setHovering }) => {
   return (
     <a
-      href={href}
+      href={contactLinks[contactState]}
       target="_blank"
       onMouseEnter={() => setHovering(contactStates[contactState])}
       onMouseLeave={() => setHovering(contactStates.contact)}

@@ -5,6 +5,7 @@
 .pre_row_container {
   position: absolute;
   left: 50%;
+  cursor: pointer;
 }
 
 .row_container {
