@@ -3,14 +3,17 @@
 }
 
 .pre_row_container {
-  height: 8rem;
-  width: 36rem;
-  margin: 0 auto;
+  position: absolute;
+  left: 50%;
 }
 
 .row_container {
   display: flex;
   justify-content: center;
+}
+
+.first_row_container {
+  margin-top: 8rem;
 }
 
 .contact_item_container {
@@ -22,7 +25,7 @@
 }
 
 .dot {
-  position: relative;
+  position: absolute;
   transition: left 2s, top 2s;
   background-color: white;
   height: 10px;
