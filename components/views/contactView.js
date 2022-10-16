@@ -9,7 +9,7 @@ import { contactLinks } from "../contactView/contactLinks";
 import { dotPositions } from "../contactView/dotPositions";
 
 const ContactView = () => {
-  const [hovering, setHovering] = useState(contactStates.linkedin);
+  const [hovering, setHovering] = useState(contactStates.resume);
   const Dots = useMemo(() => {
     let divArr = [];
     for (let i = 0; i < dotPositions[hovering].length; i++) {
@@ -47,7 +47,7 @@ const ContactView = () => {
       <div className={styles.row_container}>
         <ContactLink contactState="instagram" setHovering={setHovering} />
         <ContactLink contactState="tiktok" setHovering={setHovering} />
-        <ContactLink contactState="coffee" setHovering={setHovering} />
+        <ContactLink contactState="resume" setHovering={setHovering} />
       </div>
     </CommonView>
   );

@@ -5,7 +5,7 @@ const contactStates = {
   email: "email",
   instagram: "instagram",
   tiktok: "tiktok",
-  coffee: "coffee",
+  resume: "resume",
 };
 
 export { contactStates };
