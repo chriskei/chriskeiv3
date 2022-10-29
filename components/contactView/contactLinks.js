@@ -1,5 +1,5 @@
 const contactLinks = {
-  contact: "secret page?",
+  contact: "",
   github: "https://github.com/chriskei",
   linkedin: "https://www.linkedin.com/in/chris-kei",
   email:
