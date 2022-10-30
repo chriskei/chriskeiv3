@@ -9,7 +9,7 @@ import { contactLinks } from "../contactView/contactLinks";
 import { dotPositions } from "../contactView/dotPositions";
 
 const ContactView = () => {
-  const [hovering, setHovering] = useState(contactStates.resume);
+  const [hovering, setHovering] = useState(contactStates.contact);
   const Dots = useMemo(() => {
     let divArr = [];
     for (let i = 0; i < dotPositions[hovering].length; i++) {
@@ -28,8 +28,12 @@ const ContactView = () => {
     }
     return (
       <div
-        className={styles.pre_row_container}
-        onClick={() => window.open(contactLinks[hovering])}
+        className={`${styles.pre_row_container} ${
+          contactLinks[hovering] && styles.pointer
+        }`}
+        onClick={() =>
+          contactLinks[hovering] && window.open(contactLinks[hovering])
+        }
       >
         {divArr}
       </div>
