@@ -5,7 +5,7 @@
 }
 
 .name_container {
-  padding: 2rem;
+  padding: 2rem 4rem;
   background: linear-gradient(
     180deg,
     var(--pastel-blue-darker-bg),

@@ -14,7 +14,12 @@ const ViewImage = ({ thisView, imgSrc, imgSize, className }) => {
           }}
           className={className}
         >
-          <Image src={imgSrc} width={imgSize} height={imgSize} />
+          <Image
+            src={imgSrc}
+            width={imgSize}
+            height={imgSize}
+            priority={true}
+          />
         </div>
       )}
     </ViewContext.Consumer>

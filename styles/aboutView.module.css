@@ -7,6 +7,12 @@
   -webkit-overflow-scrolling: touch;
   height: calc(100vh - 384px);
   overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.content_container::-webkit-scrollbar {
+  display: none;
 }
 
 .scroll_container {
