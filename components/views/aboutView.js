@@ -4,9 +4,9 @@ import Image from "next/image";
 import {
   MeJpg,
   DoubleDownGif,
-  RockClimbingJpg,
+  TennisJpg,
   BeefNoodleJpg,
-  PianoJpg,
+  PianoPng,
   FriendsJpg,
 } from "@assets";
 import styles from "@styles/aboutView.module.css";
@@ -21,14 +21,14 @@ const AboutView = () => {
         <Snippet imgSide="right" imgSrc={MeJpg}>
           <h2>Hello!</h2>
           <p>
-            I'm Chris, a software engineer at DraftKings who just graduated from
-            Northeastern University!
+            I'm Chris Kei (pronounced the same as 🔑), a software engineer at
+            DraftKings who just graduated from Northeastern University!
           </p>
           <div className={styles.gif_container}>
             <Image src={DoubleDownGif} width={50} height={50} />
           </div>
         </Snippet>
-        <Snippet imgSide="left" imgSrc={RockClimbingJpg}>
+        <Snippet imgSide="left" imgSrc={TennisJpg}>
           <p>Outside of work, I love spending my free time playing sports!</p>
           <p>
             Ever since my first year of college I've been hooked on rock
@@ -56,13 +56,20 @@ const AboutView = () => {
             both my culture and food with others!
           </p>
         </Snippet>
-        <Snippet imgSide="left" imgSrc={PianoJpg}>
+        <Snippet imgSide="left" imgSrc={PianoPng}>
           <p>After a long day, I love winding down by playing my piano.</p>
           <p>
-            Like many other Asian kids, I grew up learning classical piano.
-            After quitting in high school, one day I felt like trying it out
-            again and realized that it was the lessons that I hated, not the
-            piano.
+            Like many other Asian kids, I grew up learning classical piano. I
+            played in some{" "}
+            <a
+              href="https://www.youtube.com/watch?v=ObsLF_vhz0A"
+              target="_blank"
+              className={styles.link_container}
+            >
+              recitals
+            </a>
+            , did NYSSMA up to level 6, and even performed at my uncle's 50th
+            birthday!
           </p>
           <p>
             Nowadays, I love scrolling through Musescore and sightreading any

@@ -5,10 +5,11 @@ import AirplaneGif from "./flame-training.gif";
 import InfoIcon from "./info.svg";
 import MeJpg from "./me.jpg";
 import DoubleDownGif from "./double-down.gif";
-import RockClimbingJpg from "./rock-climbing.jpg";
+import TennisJpg from "./tennis.jpg";
 import BeefNoodleJpg from "./beef-noodles.jpg";
-import PianoJpg from "./piano.jpg";
+import PianoPng from "./piano.png";
 import FriendsJpg from "./friends.jpg";
+import SevenPng from "./seven.png";
 
 export {
   ChevronUpIcon,
@@ -18,8 +19,9 @@ export {
   InfoIcon,
   MeJpg,
   DoubleDownGif,
-  RockClimbingJpg,
+  TennisJpg,
   BeefNoodleJpg,
-  PianoJpg,
+  PianoPng,
   FriendsJpg,
+  SevenPng,
 };
