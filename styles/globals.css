@@ -11,12 +11,12 @@ body {
 
 @font-face {
   font-family: Dune;
-  src: url("../assets/Dune_Rise.otf");
+  src: url("/Dune_Rise.otf");
 }
 
 @font-face {
   font-family: Cocomat;
-  src: url("../assets/Cocomat\ Pro\ Medium.otf");
+  src: url("/Cocomat_Pro_Medium.otf");
 }
 
 h1 {

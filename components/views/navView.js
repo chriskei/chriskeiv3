@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AstronautGif, TelescopeGif, AirplaneGif, InfoIcon } from "@assets";
+import { AstronautGif, TelescopeGif, AirplaneGif, InfoPng } from "@assets";
 import { ViewContext } from "@pages/home";
 import styles from "@styles/navView.module.css";
 import { viewMap } from "@utils";
@@ -19,8 +19,8 @@ const NavView = () => {
             <h1 className="dune_font">Christopher Kei</h1>
             <ViewImage
               thisView={viewMap.attributionView}
-              imgSrc={InfoIcon}
-              imgSize={32}
+              imgSrc={InfoPng}
+              imgSize={44}
               className={styles.icon_container}
             />
           </div>
