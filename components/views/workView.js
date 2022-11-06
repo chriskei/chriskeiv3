@@ -12,6 +12,7 @@ import {
   SolariaExp,
   WorksenseExp,
 } from "../workView";
+import { MahjongExp } from "../workView/mahjongExp";
 
 const expListItems = [
   "DraftKings",
@@ -19,6 +20,7 @@ const expListItems = [
   "Solaria Labs",
   "Loop Chocolate",
   "Worksense Analytics",
+  "Mahjong Dashboard",
   "7pm",
 ];
 
@@ -28,6 +30,7 @@ const expDetails = [
   <SolariaExp />,
   <LoopExp />,
   <WorksenseExp />,
+  <MahjongExp />,
   <SevenExp />,
 ];
 

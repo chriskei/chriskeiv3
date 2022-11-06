@@ -22,13 +22,10 @@
   padding: 1.5rem;
   margin: 0 0 1rem;
   border-radius: 8px;
-  outline-width: 0;
-  transition: 0.5s outline ease-in-out;
 }
 
 .selected_exp_list_item {
   outline: 4px solid var(--scarlet-accent-2);
-  transition: 0.5s outline ease-in-out;
 }
 
 .exp_container {
@@ -36,5 +33,16 @@
   outline: 4px solid var(--scarlet-accent-2);
   border-radius: 8px;
   min-width: calc(100vw - 375px - 22rem);
-  margin-left: 10rem;
+  max-width: calc(100vw - 375px - 22rem);
+  margin-left: 12rem;
+  padding: 1rem;
+  overflow: scroll;
+}
+
+.exp_image {
+  text-align: center;
+}
+
+.exp_link {
+  color: var(--scarlet-bg);
 }
