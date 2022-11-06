@@ -87,14 +87,23 @@ const SevenExp = () => {
         getting exposed to lots of new technology.
       </p>
       <p>
-        Website:{" "}
+        Website:
         <a
           href="http://sevenpm.herokuapp.com/"
           target="_blank"
           className={styles.exp_link}
         >
           {" "}
-          7PM
+          link{" "}
+        </a>
+        | Github:
+        <a
+          href="https://github.com/chriskei/sevenpm"
+          target="_blank"
+          className={styles.exp_link}
+        >
+          {" "}
+          link
         </a>
       </p>
     </>
