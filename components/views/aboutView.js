@@ -60,13 +60,12 @@ const AboutView = () => {
           <p>After a long day, I love winding down by playing my piano.</p>
           <p>
             Like many other Asian kids, I grew up learning classical piano. I
-            played in some
+            played in some{" "}
             <a
               href="https://www.youtube.com/watch?v=ObsLF_vhz0A"
               target="_blank"
               className={styles.link_container}
             >
-              {" "}
               recitals
             </a>
             , did NYSSMA up to level 6, and even performed at my uncle's 50th

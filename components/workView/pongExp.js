@@ -105,13 +105,12 @@ const PongExp = () => {
         at mahjong. Hoping to turn it around this coming winter break though!
       </p>
       <p>
-        Github:
+        Github:{" "}
         <a
           href="https://github.com/chriskei/mahjong"
           target="_blank"
           className={styles.exp_link}
         >
-          {" "}
           link
         </a>
       </p>

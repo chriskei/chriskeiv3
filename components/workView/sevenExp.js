@@ -32,15 +32,14 @@ const SevenExp = () => {
         and he told me to check out Heroku!
       </p>
       <p>
-        After doing a bit of exploration, I landed on
+        After doing a bit of exploration, I landed on{" "}
         <a
           href="https://medium.com/@chloechong.us/how-to-deploy-a-create-react-app-with-an-express-backend-to-heroku-32decfee6d18"
           target="_blank"
           className={styles.exp_link}
         >
-          {" "}
-          this{" "}
-        </a>
+          this
+        </a>{" "}
         Medium guide. This was perfect since it went through the basics of
         Heroku and help set the groundwork for my Express backend to handle
         calls to the Yelp Fusion API in easy-to-follow language!
@@ -87,22 +86,20 @@ const SevenExp = () => {
         getting exposed to lots of new technology.
       </p>
       <p>
-        Website:
+        Website:{" "}
         <a
           href="http://sevenpm.herokuapp.com/"
           target="_blank"
           className={styles.exp_link}
         >
-          {" "}
-          link{" "}
-        </a>
-        | Github:
+          link
+        </a>{" "}
+        | Github:{" "}
         <a
           href="https://github.com/chriskei/sevenpm"
           target="_blank"
           className={styles.exp_link}
         >
-          {" "}
           link
         </a>
       </p>

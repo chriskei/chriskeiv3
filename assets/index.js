@@ -11,6 +11,9 @@ import PianoPng from "./piano.png";
 import FriendsJpg from "./friends.jpg";
 import SevenPng from "./seven.png";
 import PongPng from "./pong.png";
+import WorksenseHeroPng from "./worksense-hero.png";
+import WorksensePressPng from "./worksense-press.png";
+import WorksenseContactPng from "./worksense-contact.png";
 
 export {
   ChevronUpIcon,
@@ -26,4 +29,7 @@ export {
   FriendsJpg,
   SevenPng,
   PongPng,
+  WorksenseHeroPng,
+  WorksensePressPng,
+  WorksenseContactPng,
 };
