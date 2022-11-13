@@ -15,23 +15,23 @@ import {
 import { PongExp } from "../workView/pongExp";
 
 const expListItems = [
-  "DraftKings",
-  "INTEGRITY Security Services",
-  "Solaria Labs",
-  "Loop Chocolate",
-  "Worksense Analytics",
-  "Pong Pong Wu",
   "7pm",
+  "Pong Pong Wu",
+  "Worksense Analytics",
+  "Loop Chocolate",
+  "Solaria Labs",
+  "INTEGRITY Security Services",
+  "DraftKings",
 ];
 
 const expDetails = [
-  <DraftkingsExp />,
-  <IntegrityExp />,
-  <SolariaExp />,
-  <LoopExp />,
-  <WorksenseExp />,
-  <PongExp />,
   <SevenExp />,
+  <PongExp />,
+  <WorksenseExp />,
+  <LoopExp />,
+  <SolariaExp />,
+  <IntegrityExp />,
+  <DraftkingsExp />,
 ];
 
 const workView = () => {

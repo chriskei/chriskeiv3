@@ -14,6 +14,7 @@ import PongPng from "./pong.png";
 import WorksenseHeroPng from "./worksense-hero.png";
 import WorksensePressPng from "./worksense-press.png";
 import WorksenseContactPng from "./worksense-contact.png";
+import LoopHeroPng from "./loop-hero.png";
 
 export {
   ChevronUpIcon,
@@ -32,4 +33,5 @@ export {
   WorksenseHeroPng,
   WorksensePressPng,
   WorksenseContactPng,
+  LoopHeroPng,
 };

@@ -21,7 +21,7 @@ const WorksenseExp = () => {
       <p>
         In my third year of school with one software engineering co-op in the
         bag, I felt a lot more confident in my web dev abilities so I decided to
-        join Scout as a developer! Scout is a super cool club that pairs up
+        join Scout as a Developer! Scout is a super cool club that pairs up
         small teams of around three designers, three developers, and one project
         lead with the CEO of a start up to assist them in anything they need
         from product rebranding to website creation.
