@@ -145,6 +145,9 @@ const LoopExp = () => {
       <p>
         I still love Scout and am overall happy with how the website turned out,
         but I sure was glad when this project and semester were completely done.
+        In the future though, I would love to work on a personal project where I
+        have the time to more properly build a Shopify website, organize files
+        neatly, and use Liquid to its fullest.
       </p>
       <p>
         Website:{" "}

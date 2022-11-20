@@ -15,6 +15,11 @@ import WorksenseHeroPng from "./worksense-hero.png";
 import WorksensePressPng from "./worksense-press.png";
 import WorksenseContactPng from "./worksense-contact.png";
 import LoopHeroPng from "./loop-hero.png";
+import SolariaBeginningPng from "./solaria-beginning.png";
+import SolariaFlowchartPng from "./solaria-flowchart.png";
+import SolariaHeroPng from "./solaria-hero.png";
+import SolariaProfilePng from "./solaria-profile.png";
+import SolariaTrendyInsightsPng from "./solaria-trendy-insights.png";
 
 export {
   ChevronUpIcon,
@@ -34,4 +39,9 @@ export {
   WorksensePressPng,
   WorksenseContactPng,
   LoopHeroPng,
+  SolariaBeginningPng,
+  SolariaFlowchartPng,
+  SolariaHeroPng,
+  SolariaProfilePng,
+  SolariaTrendyInsightsPng,
 };
