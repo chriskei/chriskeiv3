@@ -20,6 +20,8 @@ import SolariaFlowchartPng from "./solaria-flowchart.png";
 import SolariaHeroPng from "./solaria-hero.png";
 import SolariaProfilePng from "./solaria-profile.png";
 import SolariaTrendyInsightsPng from "./solaria-trendy-insights.png";
+import IntegrityJpeg from "./integrity.jpeg";
+import IntegrityTablePng from "./integrity-table.png";
 
 export {
   ChevronUpIcon,
@@ -44,4 +46,6 @@ export {
   SolariaHeroPng,
   SolariaProfilePng,
   SolariaTrendyInsightsPng,
+  IntegrityJpeg,
+  IntegrityTablePng,
 };
