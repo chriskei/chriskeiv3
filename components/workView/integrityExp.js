@@ -16,55 +16,57 @@ const IntegrityExp = () => {
       </p>
       <p>
         Before we get to the dense work that I did, I just want to say that
-        Integrity was a wonderful place to work! Despite the fact that we were
-        still mid-pandemic and pre-vaccine in January 2021, since day one we
-        always had the same, small cohort of me, two other co-ops (shoutout to
-        Milan and Michaela), and three software engineers (and Neil, Chris, and
-        Zack!) who came in almost every day. I loved being back to working in
-        person and getting to talk with coworkers, have silly conversations,
-        share Friday lunches, and play lots of chess together! The work culture
-        was great, and I'm so glad I got to experience the tight-knit,
-        hardworking community that Integrity has.
+        Integrity was such a wonderful place to co-op! Despite the fact that we
+        were still mid-pandemic and pre-vaccine in January 2021, since day one
+        we always had the same, small cohort of me, two other co-ops (shoutout
+        to Milan and Michaela), and three full-time software engineers (and
+        Neil, Chris, and Zack!) who came in almost every day. I loved being back
+        to working in person and getting to talk with coworkers, have silly
+        conversations, share Friday lunches, and play lots of chess together!
+        The work culture was great, and I'm so glad I got to experience the
+        tight-knit, hardworking community that Integrity has.
       </p>
       <p>
         Now to the bulk of it. This one's gonna read very different from my
-        other experience entries because I'm gonna go through a detailed
-        month-by-month walkthrough of my time at Integrity. For full
-        transparency, the reason for this and for how I remember most of what I
-        did at Integrity is because I took lots of notes on every ticket that I
-        worked on as I was offboarding. I learned so much and got to touch
-        basically every part of the system I worked on, so I didn't want to
-        forget that work, and to be honest I definitely would have if I didn't
-        have these notes. Also, we used a lot of company-specific terminology
-        that was honestly more complex than it needed to be, so for simplicity's
-        sake, most projects are going to be explained in easier-to-grasp terms
-        that stay true to the main concepts I had to deal with.
+        other experience entries because I'm give y'all a month-by-month
+        walkthrough of my time at Integrity. For full transparency, the reason
+        for this and for how I remember most of what I did at Integrity is
+        because I took lots of notes on every ticket that I worked on as I was
+        offboarding. I learned so much and got to touch basically every part of
+        the system I worked on so I didn't want to forget that work, and to be
+        honest I definitely would've if I didn't have these notes. Also, we used
+        a lot of company-specific terminology that would make explaining what I
+        did a lot more confusing, so for simplicity's sake, most projects are
+        going to use easier-to-grasp terms but they still stay true to the main
+        concepts I had to deal with.
       </p>
       <p>
         <u>January</u>
       </p>
       <p>
-        Well, actually prior to January. When I was interviewing with Integrity,
-        the team that caught my ear the most was Over-The-Air (OTA) Device
-        Management. To be honest, I had no idea what that really meant, but the
-        work sounded cool. I felt like I would get to learn the nitty gritty
-        details about how vehicles get software updates and I would get lots of
-        exposure to a backend system, which was a perspective I very much wanted
-        after my mostly frontend first co-op. More on what exactly OTA was will
-        slowly be revealed, similar to how I slowly got more and more
-        information as my time at Integrity went on!
+        Well actually, first let's start with my life prior to January. When I
+        was interviewing with Integrity, the team that caught my ear the most
+        was Over-The-Air (OTA) Device Management. To be honest, I had no idea
+        what that really meant, but the work sounded cool. I felt like I would
+        get to learn the nitty gritty details about how vehicles get software
+        updates and I would get lots of exposure to backend software
+        engineering, which was a perspective I very much wanted after working
+        almost exclusively on Solaria's frontend. More on what exactly OTA was
+        will slowly be revealed, similar to how I slowly got more and more
+        information as my time at Integrity went on.
       </p>
       <p>
         Fast forward to January. All three co-ops were put on separate teams,
-        and I was put on the OTA team! I was super excited about this.
+        and I was selected for the OTA team! I was super excited about this.
       </p>
       <p>
-        My first ticket tells a much different story, though. All my notes say
-        is there was some bug with duplicate operations not getting executed,
-        but what I remember is sitting in a Microsoft Teams call with one of my
-        team members and being absolutely lost. I literally just sat there and
-        tried to process what he was saying was wrong while simultaneously
-        trying to understand what the code was supposed to be doing.
+        My first ticket tells a very different story, though. The only thing my
+        notes say is there was some bug with duplicate operations not getting
+        executed, but what I clearly remember is sitting in a Microsoft Teams
+        call with one of my team members and being absolutely lost. I literally
+        just sat there and tried to process what he was saying while
+        simultaneously trying to understand what the code was supposed to be
+        doing.
       </p>
       <p>
         After a brutal three hour call, we submitted a PR together and I called
@@ -72,42 +74,39 @@ const IntegrityExp = () => {
         enough to be co-oping at Integrity. I was also a bit jealous because the
         other two co-ops had larger teams and team members who came into the
         office. The OTA team consisted of three engineers, including myself, and
-        one technical manager, so I felt like I was just out there struggling
-        alone.
+        one technical manager, all of who were remote for the time being, so I
+        felt like I was just out there struggling alone.
       </p>
       <p>
         The next day, I went back and thoroughly went through the part of the
         system that my team member and I were looking at the day before. I took
-        my time, this time alone, making sure to fully understand what was wrong
+        my time, this time alone, making sure I fully understood what was wrong
         and why our fix worked.
       </p>
       <p>
         For the rest of January, this early failure drove me to push myself
-        hard. I wanted to be here, I saw that I could learn so much, and I
-        wanted to be a useful engineer, so I promised myself that I'd make a
+        hard. I wanted to be at Integrity, I saw that I could learn so much, and
+        I wanted to be a useful engineer, so I promised myself that I'd make a
         huge impact on OTA.
       </p>
       <p>
-        The next couple of problems I solved were relatively minor, like fixing
-        how some of our tables handled sorting, adding filters to different
-        columns, and working through pagination errors. However, along the way,
-        I was always able to ping my team members for help and they'd instantly
-        respond, and these tickets went a lot smoother, so I felt much better
-        about my place on the team.
+        The next couple problems that I solved were relatively minor, like
+        fixing how some of our tables handled sorting, adding filters to
+        different columns, and working through pagination errors. However, along
+        the way I was always able to ping my team members for help and they'd
+        instantly respond, and these tickets went a lot smoother than the first,
+        so by the end of the month I felt much better about my place on the
+        team.
       </p>
       <p>
         <u>February</u>
       </p>
       <p>
-        February was still all about me getting up to speed. What I learned,
-        though, was team dynamics. And to be honest, there weren't many.
-      </p>
-      <p>
         I forget if this actually happened in February, but at some point pretty
         early on, I was told that the two other OTA engineers were getting put
-        on a Device Lifecycle Management (DLM) tiger team. DLM was getting
+        on the Device Lifecycle Management (DLM) tiger team. DLM was getting
         pretty big, but it was plagued with a ton of old React code that was
-        very reliant on the Meteor framework, so they needed some engineers to
+        very reliant on the Meteor framework so they needed some engineers to
         convert all of that into functional, hook-based React.
       </p>
       <p>
@@ -117,7 +116,7 @@ const IntegrityExp = () => {
         two engineers was just a Teams message away, but for the most part, I
         had a lot of freedom. Again, at first this was not exactly what I
         wanted, but I soon learned to appreciate the freedom I had in choosing
-        what I wanted to work on and little add ons in implementation.
+        what I wanted to work on and little addons during implementation.
       </p>
       <p>
         One of those self-decided projects was to abstract a microservice that
@@ -142,65 +141,66 @@ const IntegrityExp = () => {
       </p>
       <p>
         In March, work started to get fun. One pain point my manager revealed to
-        me was that every quarter, he'd have to run a series of Mongo queries to
-        grab data regarding our clients' OTA usage, which would then be used to
-        charge our clients. Even though running these queries was pretty fast,
+        me was that every quarter, he'd run a series of Mongo queries to grab
+        data regarding our clients' OTA usage which would then be used to charge
+        our clients. Even though running these queries was pretty fast,
         sometimes he'd forget to do it and wouldn't realize until someone on the
-        sales team asked. So what he wanted me to create was a lambda that would
-        be run every quarter on a cron job and automatically send an email with
-        the data for each client to both him and the sales team.
+        sales team asked about the charges. So what he wanted me to create was a
+        lambda that would be run every quarter on a cron job and automatically
+        send an email with the data for each client to both him and the sales
+        team.
       </p>
       <p>
         Since this was a completely new lambda, I got to learn exactly how we
-        spun a new microservice up, from creating the serverless.yml file to
-        deploying the service on Jenkins. Additionally, I got to work with email
-        servers which was interesting, and I even got to name the microservice!
-        Since OTA already had a bunch of fun names like Artemis and Oven, this
-        one became the Tax Collector.
+        spun a new microservice up from creating the serverless.yml file to
+        deploying the service on Jenkins. Additionally, I had the chance to work
+        with email servers which was fascinating, and I even got to name the
+        microservice! Since OTA already had a bunch of fun names like Artemis
+        and Oven, this one became the Tax Collector.
       </p>
       <p>
         However, one of the coolest parts of this project, at least in my
         opinion, was that I was able to incorporate something that I learned
-        from my algo course into it. One of the metrics that we needed to
-        collect from our clients was the peak number of products that they had
-        active at any point within the quarter. Since products could be enabled
-        and disabled, they may have switched from active to inactive or vice
-        versa multiple times in one quarter, so this wasn't just a trivial
-        MongoDB query.
+        from my algorithms course into it. One of the metrics that we needed to
+        collect from our clients was the peak number of vehicles that they had
+        active at any point within the quarter. Since vehicles could be enabled
+        and disabled through our portal, they may have switched from active to
+        inactive or vice versa multiple times in one quarter, so this wasn't
+        just a trivial MongoDB query.
       </p>
       <p>
         This, you might have realized, is exactly the maximum overlapping
-        intervals problem! Basically, if we had every date range for which
-        products were enabled within a quarter, we could take those as our
-        intervals, sort two arrays by increasing start and increasing end, and
-        then run through the sorted arrays in parallel to get our max value. I
-        updated the data structure for these products to add support for these
+        intervals problem! Basically, if we had every date range for when all of
+        our vehicles were enabled, we could take those as our intervals, sort
+        two arrays by increasing start time and increasing end time, and then
+        run through the sorted arrays in parallel to get our max value. I
+        updated the data structure for these vehicles to add support for these
         date ranges as well as any future enable/disable switches and excitedly
         implemented the algorithm.
       </p>
       <p>
-        Sadly, this lambda didn't work entirely correctly on the first go. Since
-        the quarter was scheduled to end on March 15 and I had only started when
-        March already began, I was rushing towards the end and remember staying
-        at work late on Friday, March 12 deploying the Tax Collector on Jenkins.
-        On Monday, the email did get sent, but it was sent at the wrong time and
-        no data was actually on it due to a mustache template mistake. I fixed
-        these problems that day and made sure the correct email got sent out,
-        but I learned that sometimes it's better not to rush things, especially
-        since I could've just asked my manager to manually calculate everything
-        for one more quarter to give me time to double check my work.
+        Unfortunately, this lambda didn't work as expected on the first go.
+        Since the quarter was scheduled to end on March 15 and I had only
+        started the project when March already began, I was rushing towards the
+        end and remember staying at work late on Friday, March 12 deploying the
+        Tax Collector on Jenkins. On Monday, March 15, the email did get sent,
+        but it was sent at the wrong hour and no vehicle data was actually on it
+        due to a mistake I made on our Mustache template. I fixed these problems
+        that day and made sure the correct email got sent out, but this taught
+        me to thoroughly test all of my work and that you can't rush software
+        engineering!
       </p>
       <p>
-        Another cool feature I got to work on came from our clients. At this
-        point, it was explained to me that we worked with a client who
-        specifically managed fleets of trucks across the United States. All they
-        wanted was a way to see where their trucks were from our portal.
+        Another cool feature I got to work on came from a client request. At
+        this point, it was explained to me that we worked with clients who
+        managed fleets of trucks across the United States. All they wanted was a
+        way to see where their trucks were from our portal.
       </p>
       <p>
         This wasn't too much work- all I really had to do was grab the vehicle's
-        location data if it existed in some message object and show it on a map.
-        I had complete control over researching third party map APIs so I ended
-        up on picking{" "}
+        location data if it existed in a stored message object and show it on a
+        map. I had complete control over researching third party map APIs so I
+        ended up on picking{" "}
         <a
           href="https://react-leaflet.js.org/"
           target="_blank"
@@ -221,21 +221,20 @@ const IntegrityExp = () => {
         <u>April</u>
       </p>
       <p>
-        From here on out, I started doing a lot more interesting work. Frankly,
+        From here on out, I started doing a even more interesting work. Frankly,
         there's so much left that I want to write and this whole entry is
-        getting really long already, so I'm gonna skip all the small, boring
-        tickets like abstracting table names and updating user permissions that
-        I did. Just know that what I choose to dive into here isn't everything I
-        worked on!
+        getting really long already, so I'm gonna skip the relatively small,
+        boring tickets like abstracting table names and updating user
+        permissions that I did.
       </p>
       <p>
         There was really only one big project I took on in April which was
-        exporting table data to a CSV file. To be honest, I don't remember this
-        project being super technical. What it was, though, was a lot of
-        documentation reading to figure out why certain API functions weren't
-        working, user experience work to find the best way to provide our
-        clients with a time estimate on their download, and nginx debugging to
-        stop our network connection from dropping and throwing off our export.
+        exporting table data to a CSV file. This project wasn't super technical.
+        What it was, though, was a ton of documentation reading to figure out
+        why certain API functions weren't working, user experience work to find
+        the best way to provide our clients with a time estimate on their
+        download, and nginx debugging to stop our network connection from
+        dropping and throwing off our exported data.
       </p>
       <p>
         <u>May</u>
@@ -254,42 +253,43 @@ const IntegrityExp = () => {
         </a>
         . This is essentially a standard for how "DM Servers", which Integrity
         hosted, can communicate with and serve updates to "DM Clients", which
-        were devices installed on our clients' vehicles. I spent well over a
-        week researching the OMADM Protocol, taking notes on the above 106 page
-        spec, and understanding our implementation of it, before I felt
-        comfortable starting to code.
+        were devices installed on our clients' vehicles. I spent at least a few
+        weeks researching the OMADM Protocol, taking notes on the above 106 page
+        spec, and understanding our implementation of it before I felt
+        comfortable starting to update our system.
       </p>
       <p>
-        As I mentioned, Integrity already had the architecture and an
-        implementation to handle the protocol. On some of our clients' devices,
-        though, we were seeing that a specific system-wide setting regarding
-        when clients contacted us was getting triggered far too often. This
-        often caused an influx of update requests, resulting in increased
-        latency and higher bills for our clients.
+        As I mentioned, Integrity already had the architecture in place to
+        handle communication with vehicles. On some of our clients' devices,
+        though, we were seeing that a system-wide setting was causing those
+        devices to contact us far too often. This often caused an influx of
+        update requests, resulting in increased latency and higher bills for our
+        clients.
       </p>
       <p>
         To fix this, our clients wanted to be able to set rate limits through
         device-wide configuration parameters to override default behaviors.
         These would essentially just be key-value pairs that could be set on our
-        portal. Then, upon any contact with the DM Server, the device would run
-        through the parameters set on it and if it was programmed to recognize
-        any of the keys, it would act appropriately.
+        portal and get added to devices upon next contact with the DM Server.
+        Then, upon any future contacts, the device would run through these
+        parameters set on it, and if it was programmed to recognize any of the
+        keys in its current state, it would act appropriately.
       </p>
       <p>
-        Building this out was difficult. There were so many moving parts, both
-        big and small. I had to figure out my new handler's place in the overall
-        architecture; call other microservices to compute the diff between
-        server and client configs; assume how the devices would act in certain
-        scenarios upon receiving packages; figure out alternative data
+        Building this out was understatedly difficult. There were so many moving
+        parts, both big and small. I had to figure out my new handler's place in
+        the overall architecture; call other microservices to compute the diff
+        between server and client configs; assume how the devices would act in
+        certain scenarios upon receiving packages; figure out alternative data
         representations due to Mongo restrictions; create the UI to set config
-        parameters on our portal, which actually went well into June; write
-        three new end-to-end tests on a broken system; and extensively test my
-        software with a Russian hardware contractor who modified a device in
-        real-time while I set parameters up on the portal.
+        parameters on our portal, which actually wasn't completed until June;
+        write three new end-to-end tests on a broken system; and extensively
+        test my software with a Russian hardware contractor who modified a
+        device in real-time while I set parameters up on the portal.
       </p>
       <p>
         However, thanks to my manager's well-defined project requirements as
-        well as lots of assistance from Neil in understanding the surrounding
+        well as lots of assistance from Neil in understanding architecture
         context, this project was a huge success! Working with that contractor
         and getting to see the software I wrote work almost flawlessly in such a
         complex system was an amazing feeling, and I was so happy at the
@@ -311,10 +311,10 @@ const IntegrityExp = () => {
         fleet usually had the same type of devices installed on them. This meant
         that those vehicles' devices would almost always be at one of two config
         states: the old config that all devices had at one point or the newest
-        config set on our portal. Therefore, if a fleet had 3000 vehicles, we
+        config set on the portal. Therefore, if a fleet had 3000 vehicles, we
         didn't actually need to calculate 3000 diffs; we could just calculate
-        one diff for the first vehicle that contacted us, cache that, and use
-        that for any other devices that were going to and from the same state!
+        one diff for the first vehicle that contacted us, cache it, and use it
+        for any other devices that were going to and from the same config!
       </p>
       <p>
         The caching and updating part was cool to work on because it gave me
@@ -335,13 +335,14 @@ const IntegrityExp = () => {
         for a generic object. This essentially used a combination of key sorting
         and depth-first path decomposition to get an object's unique array
         representation. With that, we could simply go down the line and use each
-        string in the array to update our hash. The final hash would become our
-        Redis key and allowed us to map configs to diffs and diff updates.
+        string in the array to produce a hash. This would become our Redis key
+        and allowed us to map configs to diffs and diff updates.
       </p>
       <p>
-        This was by far one of the most technical projects I've ever worked on,
-        and I truly learned so much, had a ton of fun brainstorming with
-        coworkers, and loved implementing theoretical solutions in code!
+        This entire device config project was by far one of the most technical
+        projects I've ever worked on, and I truly learned so much, had a ton of
+        fun brainstorming with coworkers, and loved implementing theoretical
+        solutions in code!
       </p>
       <p>
         <u>July</u>
@@ -358,7 +359,7 @@ const IntegrityExp = () => {
         tests in all other test groups and then go comment out the other tests
         in the test group of the one test you wanted. This second part was still
         a hassle since test files weren't separated by test group so you had to
-        go hunt for your tests.
+        go hunt for your tests and make edits in many different files.
       </p>
       <p>
         Inspired by{" "}
@@ -375,7 +376,7 @@ const IntegrityExp = () => {
           target="_blank"
           className={styles.exp_link}
         >
-          inquirer
+          Inquirer
         </a>
         . Using the arrow keys and space bar, I made it possible to
         automatically select all tests or pop into test groups with a file
@@ -393,30 +394,31 @@ const IntegrityExp = () => {
         documentation, a whole directory restructuring job to support automatic
         test discovery, and a new docs page to explain what I learned about the
         e2e test process and how the new CLI played into that so that future
-        engineers wouldn't have to struggle to figure our e2e system out.
+        engineers wouldn't have to struggle with figuring our e2e system out.
         However, in the end, this resulted in a vastly cleaner structure as well
         as a quicker and more interactive way to run our e2e tests!
       </p>
       <p>
-        My final large project at INTEGRITY was establishing advanced search on
+        My final large project at Integrity was establishing advanced search on
         our vehicles table. With thousands of vehicles on our portal, our table
-        columns only being able to support one filter wasn't cutting it when
-        trying to find a very specific selection of vehicles. Additionally, our
-        clients wanted the ability to search for vehicles according to software
-        versions that internal vehicle software was at, which was too complex
-        and nested within the vehicle data to have as a table column, as well as
-        vehicles that had user-generated tags on them.
+        columns only being able to support one filter at a time wasn't cutting
+        it when trying to find a very specific selection of vehicles.
+        Additionally, our clients wanted the ability to search for vehicles
+        according to what software versions their internal software parts were
+        at, which was too complex and nested within the vehicle data to have as
+        a table column, as well as vehicles that had specified user-generated
+        tags on them.
       </p>
       <p>
-        After doing some research on how other websites like Google and Twitter
+        After doing some research on how websites like Google and Twitter
         handled advanced search, I didn't particularly like any of them so I
-        decided to homebrew it. What I came up with was a simple form that used
-        radio buttons to add a filter on "SOFTWARE VERSIONS" or "VEHICLE TAGS"
-        and a textbox for each desired version or tag. Multiple filters could be
-        added and then processed to search for vehicles that matched "ANY" or
-        "ALL" of these filters. Later on, I also added support to negate search
-        parameters, such as if you wanted to get all vehicles that did not have
-        software AAPL_GUI at version 11.5.2.
+        decided to homebrew ours. What I came up with was a simple form that
+        used radio buttons to add a filter on "SOFTWARE VERSIONS" or "VEHICLE
+        TAGS" and textboxs for each desired version or tag. Multiple filters
+        could be added and then processed to search for vehicles that matched
+        "ANY" or "ALL" of these filters. Later on, I also added support to
+        negate search parameters, such as if you wanted to get all vehicles that
+        did not have software AAPL_GUI at version 11.5.2.
       </p>
       <p>
         The backend was simple. Upon form submission, all filters were sent to a
@@ -428,7 +430,7 @@ const IntegrityExp = () => {
         exporting.
       </p>
       <p>
-        Despite some complex logic, our advanced product search was extremely
+        Despite some complex logic, our advanced vehicle search was extremely
         performant. I didn't just see it in action and decide that- I also did
         some benchmark testing after it was complete because, similar to my
         device config work, I wondered if caching could improve performance.
@@ -444,7 +446,7 @@ const IntegrityExp = () => {
         filter that resulted in a large number of vehicles, and a complex filter
         that resulted in a large number of vehicles. These four tests were run
         ten times on both our system without caching implemented and our system
-        with caching implemented and the results were averaged.
+        with caching implemented and then the results were averaged.
       </p>
       <div className={styles.exp_image}>
         <Image src={IntegrityTablePng} width={400} height={125} />
@@ -455,33 +457,33 @@ const IntegrityExp = () => {
         filters were only taking 2 milliseconds at the high end. With caching,
         retrieving cached searches consistently took around 0.8 milliseconds,
         which made sense since a cache look up should be constant regardless of
-        the filter complexity. However, creating that cache took so much more
-        time that the numbers weren't even in the same order of magnitude
-        anymore.
+        the filter complexity and size of the result. However, creating that
+        cache took so much more time that the numbers weren't even in the same
+        order of magnitude anymore.
       </p>
       <p>
-        After seeing the numbers, caching clearly wasn't worth it. Even in the
-        ideal scenario of our clients having a complex filter that resulted in a
-        large number of vehicles, caching only broke even time-wise after the
-        cache was used over a thousand times. Aside from realistic advanced
-        search usage concerns, the cache would also have to be invalidated
-        whenever new vehicles were added or any vehicle's data changed, so it
-        was extremely unlikely we would ever break even on this tradeoff.
-        Furthermore, 2 milliseconds is already extremely fast to begin with, so
-        the 1.2 milliseconds we gain from cache look ups really are negligable
-        in such a small-scale system.
+        Even in the ideal scenario of our clients having a complex filter that
+        resulted in a large number of vehicles, caching only broke even
+        time-wise after the cache was used over a thousand times. Aside from
+        realistic advanced search usage concerns, the cache would also have to
+        be invalidated whenever new vehicles were added or when any vehicle's
+        data changed, so it was extremely unlikely we would ever break even on
+        this tradeoff. Furthermore, 2 milliseconds is already extremely fast to
+        begin with, so the 1.2 milliseconds we gain from cache look ups really
+        are negligable in such a small-scale system.
       </p>
       <p>
-        Looking back, I probably didn't even have to implement and test caching
-        after seeing the no cache solution only took 2 milliseconds. However, I
-        learned a lot from this experiment and was oddly satisfied seeing my
-        theoretical expectations validated by empirical results.
+        After seeing the numbers, caching clearly wasn't worth it. Looking back,
+        I probably didn't even have to consider caching after seeing the no
+        cache solution averaged under 2 milliseconds. However, I learned a lot
+        from this experiment and was oddly satisfied seeing my theoretical
+        expectations validated by empirical results.
       </p>
       <p>
         <u>August</u>
       </p>
       <p>
-        I really only worked at INTEGIRTY for two and a half days in August. In
+        I really only worked at Integrity for two and a half days in August. In
         those few hours, I finished three small tickets which cleaned up Tax
         Collector emails, our software tree GUI, and filtered CSV exports. I
         also took these extensive notes during that time!
@@ -493,9 +495,10 @@ const IntegrityExp = () => {
         the remainder of the summer!
       </p>
       <p>
-        Unfortunately, there's no website link or powerpoint images to see any
-        of what's written above since nothing we built was public-facing. But
-        you can check out{" "}
+        Unfortunately, aside from the one table with my advanced vehicle search
+        caching experiment results, there's no website link or powerpoint images
+        to see any of what's written above since nothing we built was
+        public-facing. However, if you want you can check out{" "}
         <a
           href="https://www.ghsiss.com/"
           target="_blank"
@@ -503,7 +506,7 @@ const IntegrityExp = () => {
         >
           ISS' website
         </a>{" "}
-        for more info on the company!
+        for more info on this fantastic little company!
       </p>
     </>
   );
