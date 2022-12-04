@@ -22,6 +22,7 @@ import SolariaProfilePng from "./solaria-profile.png";
 import SolariaTrendyInsightsPng from "./solaria-trendy-insights.png";
 import IntegrityJpeg from "./integrity.jpeg";
 import IntegrityTablePng from "./integrity-table.png";
+import DraftkingsDfsPng from "./draftkings-dfs.png";
 
 export {
   ChevronUpIcon,
@@ -48,4 +49,5 @@ export {
   SolariaTrendyInsightsPng,
   IntegrityJpeg,
   IntegrityTablePng,
+  DraftkingsDfsPng,
 };

@@ -29,7 +29,8 @@ h2 {
   font: bold 42px Dune;
 }
 
-p {
+p,
+li {
   color: white;
   font: lighter 22px Cocomat;
 }
