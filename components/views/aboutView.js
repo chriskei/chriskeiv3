@@ -2,12 +2,12 @@ import React from "react";
 import Image from "next/image";
 
 import {
-  MeJpg,
+  MeImg,
   DoubleDownGif,
-  TennisJpg,
-  BeefNoodleJpg,
-  PianoPng,
-  FriendsJpg,
+  TennisImg,
+  BeefNoodlesImg,
+  PianoImg,
+  FriendsImg,
 } from "@assets";
 import styles from "@styles/aboutView.module.css";
 import { viewMap } from "@utils";
@@ -18,7 +18,7 @@ const AboutView = () => {
   return (
     <CommonView thisView={viewMap.aboutView} thisViewStyles={styles}>
       <div className={styles.content_container}>
-        <Snippet imgSide="right" imgSrc={MeJpg}>
+        <Snippet imgSide="right" imgSrc={MeImg}>
           <h2>Hello!</h2>
           <p>
             I'm Chris Kei (pronounced the same as 🔑), a software engineer at
@@ -28,7 +28,7 @@ const AboutView = () => {
             <Image src={DoubleDownGif} width={50} height={50} />
           </div>
         </Snippet>
-        <Snippet imgSide="left" imgSrc={TennisJpg}>
+        <Snippet imgSide="left" imgSrc={TennisImg}>
           <p>Outside of work, I love spending my free time playing sports!</p>
           <p>
             Ever since my first year of college I've been hooked on rock
@@ -43,7 +43,7 @@ const AboutView = () => {
             set on the weekends. Hit me up if you've got a racquet!
           </p>
         </Snippet>
-        <Snippet imgSide="right" imgSrc={BeefNoodleJpg}>
+        <Snippet imgSide="right" imgSrc={BeefNoodlesImg}>
           <p>Cooking is another big part of my life!</p>
           <p>
             I love cooking Asian styled dishes with my own twist on them. Some
@@ -56,7 +56,7 @@ const AboutView = () => {
             both my culture and food with others!
           </p>
         </Snippet>
-        <Snippet imgSide="left" imgSrc={PianoPng}>
+        <Snippet imgSide="left" imgSrc={PianoImg}>
           <p>After a long day, I love winding down by playing my piano.</p>
           <p>
             Like many other Asian kids, I grew up learning classical piano. I
@@ -81,7 +81,7 @@ const AboutView = () => {
             videos to my TikTok account, so keep an eye out for those!
           </p>
         </Snippet>
-        <Snippet imgSide="right" imgSrc={FriendsJpg}>
+        <Snippet imgSide="right" imgSrc={FriendsImg}>
           <p>That's basically me in a nutshell!</p>
           <p>
             If you want to chat about climbing, cooking, pianoing, or anything

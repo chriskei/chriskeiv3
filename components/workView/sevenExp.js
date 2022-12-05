@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 
-import { SevenPng } from "@assets";
+import { SevenImg } from "@assets";
 import styles from "@styles/workView.module.css";
 
 const SevenExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={SevenPng} width={400} height={300} />
+        <Image src={SevenImg} width={400} height={300} />
       </div>
       <p>7PM was the first full stack website that I built on my own!</p>
       <p>

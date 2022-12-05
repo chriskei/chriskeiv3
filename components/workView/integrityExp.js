@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 
-import { IntegrityJpeg, IntegrityTablePng } from "@assets";
+import { IntegrityImg, IntegrityTableImg } from "@assets";
 import styles from "@styles/workView.module.css";
 
 const IntegrityExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={IntegrityJpeg} width={550} height={125} />
+        <Image src={IntegrityImg} width={550} height={125} />
       </div>
       <p>
         During my third year at Northeastern, I was a Software Engineering Co-op
@@ -449,7 +449,7 @@ const IntegrityExp = () => {
         with caching implemented and then the results were averaged.
       </p>
       <div className={styles.exp_image}>
-        <Image src={IntegrityTablePng} width={400} height={125} />
+        <Image src={IntegrityTableImg} width={400} height={125} />
       </div>
       <p>
         What I found was that without caching, our search was blazing fast.

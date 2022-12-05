@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 
 import {
-  SolariaBeginningPng,
-  SolariaFlowchartPng,
-  SolariaHeroPng,
-  SolariaProfilePng,
-  SolariaTrendyInsightsPng,
+  SolariaBeginningImg,
+  SolariaFlowchartImg,
+  SolariaHeroImg,
+  SolariaProfileImg,
+  SolariaTrendyInsightsImg,
 } from "@assets";
 import styles from "@styles/workView.module.css";
 
@@ -14,7 +14,7 @@ const SolariaExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={SolariaHeroPng} width={475} height={300} />
+        <Image src={SolariaHeroImg} width={475} height={300} />
       </div>
       <p>
         Solaria Labs was the first company that I co-oped at! I was one of two
@@ -96,7 +96,7 @@ const SolariaExp = () => {
         questionnaire.
       </p>
       <div className={styles.exp_image}>
-        <Image src={SolariaFlowchartPng} width={425} height={250} />
+        <Image src={SolariaFlowchartImg} width={425} height={250} />
       </div>
       <p>
         After that, I finally felt comfortable enough with both the team and my
@@ -108,7 +108,7 @@ const SolariaExp = () => {
         components, but at this point everything was so new and exciting!
       </p>
       <div className={styles.exp_image}>
-        <Image src={SolariaBeginningPng} width={425} height={250} />
+        <Image src={SolariaBeginningImg} width={425} height={250} />
       </div>
       <p>
         Around this point was also when Covid struck Boston. A week after my
@@ -167,7 +167,7 @@ const SolariaExp = () => {
         out later on.
       </p>
       <div className={styles.exp_image}>
-        <Image src={SolariaProfilePng} width={425} height={250} />
+        <Image src={SolariaProfileImg} width={425} height={250} />
       </div>
       <p>
         After I wrote docs on how to continue working with Storybook and
@@ -180,7 +180,7 @@ const SolariaExp = () => {
         abilities.
       </p>
       <div className={styles.exp_image}>
-        <Image src={SolariaTrendyInsightsPng} width={425} height={250} />
+        <Image src={SolariaTrendyInsightsImg} width={425} height={250} />
       </div>
       <p>
         Throughout my co-op, I also had the opportunity to do some backend work.

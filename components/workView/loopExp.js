@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 
-import { LoopHeroPng } from "@assets";
+import { LoopHeroImg } from "@assets";
 import styles from "@styles/workView.module.css";
 
 const LoopExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={LoopHeroPng} width={450} height={400} />
+        <Image src={LoopHeroImg} width={450} height={400} />
       </div>
       <p>
         Loop was an e-commerce website that my Scout team built for a healthy

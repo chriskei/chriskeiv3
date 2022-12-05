@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 
-import { PongPng } from "@assets";
+import { PongImg } from "@assets";
 import styles from "@styles/workView.module.css";
 
 const PongExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={PongPng} width={450} height={300} />
+        <Image src={PongImg} width={450} height={300} />
       </div>
       <p>
         Pong Pong Wu is a locally hosted family mahjong dashboard! The name

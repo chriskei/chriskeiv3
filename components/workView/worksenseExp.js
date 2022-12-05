@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 
 import {
-  WorksenseHeroPng,
-  WorksensePressPng,
-  WorksenseContactPng,
+  WorksenseHeroImg,
+  WorksensePressImg,
+  WorksenseContactImg,
 } from "@assets";
 import styles from "@styles/workView.module.css";
 
@@ -12,7 +12,7 @@ const WorksenseExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={WorksenseHeroPng} width={450} height={400} />
+        <Image src={WorksenseHeroImg} width={450} height={400} />
       </div>
       <p>
         Worksense was a to-be-created workplace bias analytics tool that I
@@ -51,7 +51,7 @@ const WorksenseExp = () => {
         for general inquiries.
       </p>
       <div className={styles.exp_image}>
-        <Image src={WorksenseContactPng} width={450} height={275} />
+        <Image src={WorksenseContactImg} width={450} height={275} />
       </div>
       <p>
         Building these forms wasn't difficult. What was fun about them, though,
@@ -86,7 +86,7 @@ const WorksenseExp = () => {
         rotating carousel of shoutouts from a few organizations.
       </p>
       <div className={styles.exp_image}>
-        <Image src={WorksensePressPng} width={450} height={300} />
+        <Image src={WorksensePressImg} width={450} height={300} />
       </div>
       <p>
         For this carousel, I remember having trouble with timers causing a

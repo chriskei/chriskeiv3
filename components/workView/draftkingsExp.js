@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 
-import { DraftkingsDfsPng } from "@assets";
+import { DraftkingsDfsImg } from "@assets";
 import styles from "@styles/workView.module.css";
 
 const DraftkingsExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={DraftkingsDfsPng} width={550} height={300} />
+        <Image src={DraftkingsDfsImg} width={550} height={300} />
       </div>
       <p>
         I'm currently a software engineer at DraftKings! In June 2022, I joined
