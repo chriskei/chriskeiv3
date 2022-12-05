@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AstronautGif, TelescopeGif, AirplaneGif, InfoIcon } from "@assets";
+import { AstronautGif, WebsiteGif, AirplaneGif, InfoIcon } from "@assets";
 import { ViewContext } from "@pages/home";
 import styles from "@styles/navView.module.css";
 import { viewMap } from "@utils";
@@ -33,7 +33,7 @@ const NavView = () => {
             />
             <ViewImage
               thisView={viewMap.workView}
-              imgSrc={TelescopeGif}
+              imgSrc={WebsiteGif}
               imgSize={300}
               className={styles.icon_container}
             />

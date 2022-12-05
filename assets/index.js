@@ -1,6 +1,6 @@
 import ChevronUpIcon from "./chevrons-up.svg";
 import AstronautGif from "./flame-space-adventures.gif";
-import TelescopeGif from "./flame-searching.gif";
+import WebsiteGif from "./flame-team.gif";
 import AirplaneGif from "./flame-training.gif";
 import InfoIcon from "./info.png";
 import MeImg from "./me.jpg";
@@ -27,7 +27,7 @@ import DraftkingsDfsImg from "./draftkings-dfs.png";
 export {
   ChevronUpIcon,
   AstronautGif,
-  TelescopeGif,
+  WebsiteGif,
   AirplaneGif,
   InfoIcon,
   MeImg,
