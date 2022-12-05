@@ -19,7 +19,7 @@ const DraftkingsExp = () => {
       </p>
       <p>
         It's too early to go through a breakdown of my entire DraftKings story,
-        but here are some highlights of my career so far:
+        but here are some highlights of my six months so far:
       </p>
       <ul>
         <li>
@@ -71,6 +71,16 @@ const DraftkingsExp = () => {
           GraphQL layer!
         </li>
       </ul>
+      <p>
+        Website:{" "}
+        <a
+          href="https://www.draftkings.com/"
+          target="_blank"
+          className={styles.exp_link}
+        >
+          link
+        </a>
+      </p>
     </>
   );
 };

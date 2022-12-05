@@ -44,5 +44,6 @@
 }
 
 .exp_link {
-  color: var(--scarlet-bg);
+  color: var(--scarlet-accent-3);
+  font-weight: bold;
 }
