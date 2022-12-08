@@ -14,17 +14,22 @@ const SolariaExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={SolariaHeroImg} width={475} height={300} />
+        <Image
+          src={SolariaHeroImg}
+          width={475}
+          height={300}
+          alt="solaria hero"
+        />
       </div>
       <p>
         Solaria Labs was the first company that I co-oped at! I was one of two
-        Software Development Co-ops and worked on building up Certainly's auto
-        insurance platform.
+        Software Development Co-ops and worked on building up Certainly&apos;s
+        auto insurance platform.
       </p>
       <p>
         First, again, a little background information. Solaria Labs is Liberty
-        Mutual's innovation incubator. This, as it was explained to me, meant
-        that projects within Solaria were run with similar motivations and
+        Mutual&apos;s innovation incubator. This, as it was explained to me,
+        meant that projects within Solaria were run with similar motivations and
         energy levels that start-ups might have, yet they also had the financial
         backing and interest of a large corporation.
       </p>
@@ -33,36 +38,37 @@ const SolariaExp = () => {
         Certainly, a website created to give potential customers personalized
         insurance quotes in a fraction of the time that the typical quote
         process would take, wanted to be able to handle auto insurance quotes.
-        Didn't Liberty Mutual already offer auto insurance? So why didn't we
-        just direct customers over to use Core Liberty's auto quote flow?
+        Didn&apos;t Liberty Mutual already offer auto insurance? So why
+        didn&apos;t we just direct customers over to use Core Liberty&apos;s
+        auto quote flow?
       </p>
       <p>
         The answer was that getting auto insurance up and running was tied to
-        Solaria's mission. Basically, since the auto insurance quote flow was
-        complex and battle-tested through Core Liberty, they wanted to see how
-        long it would take Solaria to reverse engineer auto insurance and get it
-        running on Certainly. This would then give Solaria a rough time estimate
-        on how long it takes to fully support a new type of insurance. If it was
-        fast enough, then continuing to build the Certainly platform up would be
-        a viable solution for testing more experimental types of insurance in
-        the future, such as wedding insurance.
+        Solaria&apos;s mission. Basically, since the auto insurance quote flow
+        was complex and battle-tested through Core Liberty, they wanted to see
+        how long it would take Solaria to reverse engineer auto insurance and
+        get it running on Certainly. This would then give Solaria a rough time
+        estimate on how long it takes to fully support a new type of insurance.
+        If it was fast enough, then continuing to build the Certainly platform
+        up would be a viable solution for testing more experimental types of
+        insurance in the future, such as wedding insurance.
       </p>
       <p>
         In my first month, the Certainly team was just beginning to ramp up and
         expand on the initial quote, modification, and confirmation flow. This
         was perfect because it gave me a little time to ramp up my own skillset
-        as a software engineer- I didn't even know React!
+        as a software engineer- I didn&apos;t even know React!
       </p>
       <p>
         A little sidenote since this was crucial to getting me to where I am
         today. One key reason why I was able to land Solaria as my first co-op
-        was that they didn't have a technical portion to their interview. My
-        manager strongly believed that as co-ops, we could and would learn
+        was that they didn&apos;t have a technical portion to their interview.
+        My manager strongly believed that as co-ops, we could and would learn
         everything we needed to know on the job as long as we were willing to
         learn. I was really lucky to find a Software Development Co-op position
-        at a company that knew that being able to reverse a linked list doesn't
-        really matter, and I'm forever grateful that they gave me the chance to
-        work hard and learn from the best.
+        at a company that knew that being able to reverse a linked list
+        doesn&apos;t really matter, and I&apos;m forever grateful that they gave
+        me the chance to work hard and learn from the best.
       </p>
       <p>
         Back to work- to fill in this knowledge gap, I spent a good portion of
@@ -71,6 +77,7 @@ const SolariaExp = () => {
         <a
           href="https://reactjs.org/docs/hello-world.html"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           React introduction
@@ -79,6 +86,7 @@ const SolariaExp = () => {
         <a
           href=".nestjs.com/providers"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           NestJS injectables and decorators
@@ -87,7 +95,7 @@ const SolariaExp = () => {
       </p>
       <p>
         The other co-op Cari and I also wanted to help out the team in some
-        capacity, so we decided to document Core Liberty's auto quote
+        capacity, so we decided to document Core Liberty&apos;s auto quote
         questionnaire. For over a week, we painstakingly went through their
         entire questionnaire dozens of times, making sure we hit every possible
         conditional path of questions. These paths were marked in a flowchart so
@@ -96,7 +104,12 @@ const SolariaExp = () => {
         questionnaire.
       </p>
       <div className={styles.exp_image}>
-        <Image src={SolariaFlowchartImg} width={425} height={250} />
+        <Image
+          src={SolariaFlowchartImg}
+          width={425}
+          height={250}
+          alt="solaria flowchart"
+        />
       </div>
       <p>
         After that, I finally felt comfortable enough with both the team and my
@@ -108,7 +121,12 @@ const SolariaExp = () => {
         components, but at this point everything was so new and exciting!
       </p>
       <div className={styles.exp_image}>
-        <Image src={SolariaBeginningImg} width={425} height={250} />
+        <Image
+          src={SolariaBeginningImg}
+          width={425}
+          height={250}
+          alt="solaria beginning"
+        />
       </div>
       <p>
         Around this point was also when Covid struck Boston. A week after my
@@ -134,9 +152,9 @@ const SolariaExp = () => {
         On its own, at this point in my career that already felt like a big
         task. However, we went a step further. A few months prior, my manager
         had set up Storybook with the goal of turning it into a preview
-        environment of all of our frontend components. He didn't have much time
-        though, so there were only five or so components on it that nobody was
-        ever going to look at.
+        environment of all of our frontend components. He didn&apos;t have much
+        time though, so there were only five or so components on it that nobody
+        was ever going to look at.
       </p>
       <p>
         My project became twofold: 1. implement a new component creation process
@@ -144,6 +162,7 @@ const SolariaExp = () => {
         <a
           href="https://atomicdesign.bradfrost.com/chapter-2/"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           atomic design
@@ -167,7 +186,12 @@ const SolariaExp = () => {
         out later on.
       </p>
       <div className={styles.exp_image}>
-        <Image src={SolariaProfileImg} width={425} height={250} />
+        <Image
+          src={SolariaProfileImg}
+          width={425}
+          height={250}
+          alt="solaria profile"
+        />
       </div>
       <p>
         After I wrote docs on how to continue working with Storybook and
@@ -175,12 +199,17 @@ const SolariaExp = () => {
         other tasks. Among some of these were landing page links that needed to
         be added, new modal logic to show how a single quote modification could
         cause a cascade of coverage changes in other categories, FAQ updates,
-        and work on Solaria's internal newsletter system. From each of these, I
-        continued to learn more and become increasingly confident in my frontend
-        abilities.
+        and work on Solaria&apos;s internal newsletter system. From each of
+        these, I continued to learn more and become increasingly confident in my
+        frontend abilities.
       </p>
       <div className={styles.exp_image}>
-        <Image src={SolariaTrendyInsightsImg} width={425} height={250} />
+        <Image
+          src={SolariaTrendyInsightsImg}
+          width={425}
+          height={250}
+          alt="solaria trendy insights"
+        />
       </div>
       <p>
         Throughout my co-op, I also had the opportunity to do some backend work.
@@ -191,11 +220,11 @@ const SolariaExp = () => {
         of these microservices was extremely complex, so I barely had time to
         grasp one fully; they talked to each other through gRPC messages, which
         I often got mixed up with our GraphQL schema; and they were spun up with
-        Docker, which I didn't understand beyond clicking the run button on the
-        Docker Desktop GUI. Our lack of formal infrastructure made testing the
-        backend a struggle for everybody, really. And I didn't even mention our
-        API Gateway or how often we needed to create a GraphQL introspection PR,
-        making fullstack work another pain point.
+        Docker, which I didn&apos;t understand beyond clicking the run button on
+        the Docker Desktop GUI. Our lack of formal infrastructure made testing
+        the backend a struggle for everybody, really. And I didn&apos;t even
+        mention our API Gateway or how often we needed to create a GraphQL
+        introspection PR, making fullstack work another pain point.
       </p>
       <p>So I kept my distance from the backend.</p>
       <p>
@@ -216,13 +245,14 @@ const SolariaExp = () => {
         Solaria, thank you for not only giving me life long skills but also life
         long friends. In the spring of 2022, I got dinner with Cari, my manager,
         and another coworker who I bonded over Northeastern and TFT with. If you
-        see this, I'm looking forward to our next little get together!
+        see this, I&apos;m looking forward to our next little get together!
       </p>
       <p>
         Website:{" "}
         <a
           href="https://www.getcertainly.com/"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           link

@@ -1,7 +1,8 @@
-import ChevronUpIcon from "./chevrons-up.svg";
-import AstronautGif from "./flame-space-adventures.gif";
-import WebsiteGif from "./flame-team.gif";
-import AirplaneGif from "./flame-training.gif";
+import ChevronUpIcon from "./chevron-up.svg";
+import AstronautGif from "./astronaut.gif";
+import WebsiteGif from "./website.gif";
+import AirplaneGif from "./airplane.gif";
+import BlueprintGif from "./blueprint.gif";
 import InfoIcon from "./info.png";
 import MeImg from "./me.jpg";
 import DoubleDownGif from "./double-down.gif";
@@ -29,6 +30,7 @@ export {
   AstronautGif,
   WebsiteGif,
   AirplaneGif,
+  BlueprintGif,
   InfoIcon,
   MeImg,
   DoubleDownGif,

@@ -1,0 +1,37 @@
+.page_container {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--pastel-blue-darker-bg);
+}
+
+.content_container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+}
+
+.text_container {
+  align-self: center;
+}
+
+.text_main {
+  margin: 0.3rem 0.3rem 0.2rem;
+  align-self: center;
+}
+
+.button_container {
+  background-color: var(--dark-blue-bg);
+  display: flex;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.icon_container {
+  rotate: calc(90deg);
+}

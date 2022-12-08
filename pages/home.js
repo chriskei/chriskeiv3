@@ -13,9 +13,11 @@ import {
 export const ViewContext = createContext();
 
 // TODO:
-// 1. fix 100% sizing
-// 2. fix errors on build
-// 3. make mobile friendly
+// [] fix 100% sizing
+// [x] fix errors on build
+// [] make mobile friendly
+// [x] 404 page
+// [] page margins
 
 const Home = () => {
   const [currentView, setCurrentView] = useState(viewMap.navView);

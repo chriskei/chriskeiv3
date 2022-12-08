@@ -25,6 +25,7 @@ const CommonView = ({ thisView, thisViewStyles, children }) => {
               width={32}
               height={32}
               onClick={() => setCurrentView(viewMap.navView)}
+              alt="chevron up"
             />
           </div>
           <div className={styles.children_container}>{children}</div>

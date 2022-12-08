@@ -8,7 +8,7 @@ const IntegrityExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={IntegrityImg} width={550} height={125} />
+        <Image src={IntegrityImg} width={550} height={125} alt="integrity" />
       </div>
       <p>
         During my third year at Northeastern, I was a Software Engineering Co-op
@@ -23,36 +23,37 @@ const IntegrityExp = () => {
         Neil, Chris, and Zack!) who came in almost every day. I loved being back
         to working in person and getting to talk with coworkers, have silly
         conversations, share Friday lunches, and play lots of chess together!
-        The work culture was great, and I'm so glad I got to experience the
+        The work culture was great, and I&apos;m so glad I got to experience the
         tight-knit, hardworking community that Integrity has.
       </p>
       <p>
-        Now to the bulk of it. This one's gonna read very different from my
-        other experience entries because I'm give y'all a month-by-month
-        walkthrough of my time at Integrity. For full transparency, the reason
-        for this and for how I remember most of what I did at Integrity is
-        because I took lots of notes on every ticket that I worked on as I was
-        offboarding. I learned so much and got to touch basically every part of
-        the system I worked on so I didn't want to forget that work, and to be
-        honest I definitely would've if I didn't have these notes. Also, we used
-        a lot of company-specific terminology that would make explaining what I
-        did a lot more confusing, so for simplicity's sake, most projects are
-        going to use easier-to-grasp terms but they still stay true to the main
-        concepts I had to deal with.
+        Now to the bulk of it. This one&apos;s gonna read very different from my
+        other experience entries because I&apos;m give y&apos;all a
+        month-by-month walkthrough of my time at Integrity. For full
+        transparency, the reason for this and for how I remember most of what I
+        did at Integrity is because I took lots of notes on every ticket that I
+        worked on as I was offboarding. I learned so much and got to touch
+        basically every part of the system I worked on so I didn&apos;t want to
+        forget that work, and to be honest I definitely would&apos;ve if I
+        didn&apos;t have these notes. Also, we used a lot of company-specific
+        terminology that would make explaining what I did a lot more confusing,
+        so for simplicity&apos;s sake, most projects are going to use
+        easier-to-grasp terms but they still stay true to the main concepts I
+        had to deal with.
       </p>
       <p>
         <u>January</u>
       </p>
       <p>
-        Well actually, first let's start with my life prior to January. When I
-        was interviewing with Integrity, the team that caught my ear the most
-        was Over-The-Air (OTA) Device Management. To be honest, I had no idea
-        what that really meant, but the work sounded cool. I felt like I would
-        get to learn the nitty gritty details about how vehicles get software
-        updates and I would get lots of exposure to backend software
+        Well actually, first let&apos;s start with my life prior to January.
+        When I was interviewing with Integrity, the team that caught my ear the
+        most was Over-The-Air (OTA) Device Management. To be honest, I had no
+        idea what that really meant, but the work sounded cool. I felt like I
+        would get to learn the nitty gritty details about how vehicles get
+        software updates and I would get lots of exposure to backend software
         engineering, which was a perspective I very much wanted after working
-        almost exclusively on Solaria's frontend. More on what exactly OTA was
-        will slowly be revealed, similar to how I slowly got more and more
+        almost exclusively on Solaria&apos;s frontend. More on what exactly OTA
+        was will slowly be revealed, similar to how I slowly got more and more
         information as my time at Integrity went on.
       </p>
       <p>
@@ -70,12 +71,12 @@ const IntegrityExp = () => {
       </p>
       <p>
         After a brutal three hour call, we submitted a PR together and I called
-        it a day. I was completely drained and I really felt like I wasn't smart
-        enough to be co-oping at Integrity. I was also a bit jealous because the
-        other two co-ops had larger teams and team members who came into the
-        office. The OTA team consisted of three engineers, including myself, and
-        one technical manager, all of who were remote for the time being, so I
-        felt like I was just out there struggling alone.
+        it a day. I was completely drained and I really felt like I wasn&apos;t
+        smart enough to be co-oping at Integrity. I was also a bit jealous
+        because the other two co-ops had larger teams and team members who came
+        into the office. The OTA team consisted of three engineers, including
+        myself, and one technical manager, all of who were remote for the time
+        being, so I felt like I was just out there struggling alone.
       </p>
       <p>
         The next day, I went back and thoroughly went through the part of the
@@ -86,17 +87,17 @@ const IntegrityExp = () => {
       <p>
         For the rest of January, this early failure drove me to push myself
         hard. I wanted to be at Integrity, I saw that I could learn so much, and
-        I wanted to be a useful engineer, so I promised myself that I'd make a
-        huge impact on OTA.
+        I wanted to be a useful engineer, so I promised myself that I&apos;d
+        make a huge impact on OTA.
       </p>
       <p>
         The next couple problems that I solved were relatively minor, like
         fixing how some of our tables handled sorting, adding filters to
         different columns, and working through pagination errors. However, along
-        the way I was always able to ping my team members for help and they'd
-        instantly respond, and these tickets went a lot smoother than the first,
-        so by the end of the month I felt much better about my place on the
-        team.
+        the way I was always able to ping my team members for help and
+        they&apos;d instantly respond, and these tickets went a lot smoother
+        than the first, so by the end of the month I felt much better about my
+        place on the team.
       </p>
       <p>
         <u>February</u>
@@ -132,23 +133,23 @@ const IntegrityExp = () => {
         Since we had thousands of entries worth of CRUD operations on vehicle
         parts and softwares, not paginating those entries meant the browser
         would actually crash for a minute as it was grabbing all the logs for
-        us. Everyone just avoided the logs page because of that, but I didn't
-        like how broken that part of our portal was so I researched how Meteor
-        handled pub/sub and got to work.
+        us. Everyone just avoided the logs page because of that, but I
+        didn&apos;t like how broken that part of our portal was so I researched
+        how Meteor handled pub/sub and got to work.
       </p>
       <p>
         <u>March</u>
       </p>
       <p>
         In March, work started to get fun. One pain point my manager revealed to
-        me was that every quarter, he'd run a series of Mongo queries to grab
-        data regarding our clients' OTA usage which would then be used to charge
-        our clients. Even though running these queries was pretty fast,
-        sometimes he'd forget to do it and wouldn't realize until someone on the
-        sales team asked about the charges. So what he wanted me to create was a
-        lambda that would be run every quarter on a cron job and automatically
-        send an email with the data for each client to both him and the sales
-        team.
+        me was that every quarter, he&apos;d run a series of Mongo queries to
+        grab data regarding our clients&apos; OTA usage which would then be used
+        to charge our clients. Even though running these queries was pretty
+        fast, sometimes he&apos;d forget to do it and wouldn&apos;t realize
+        until someone on the sales team asked about the charges. So what he
+        wanted me to create was a lambda that would be run every quarter on a
+        cron job and automatically send an email with the data for each client
+        to both him and the sales team.
       </p>
       <p>
         Since this was a completely new lambda, I got to learn exactly how we
@@ -165,8 +166,8 @@ const IntegrityExp = () => {
         collect from our clients was the peak number of vehicles that they had
         active at any point within the quarter. Since vehicles could be enabled
         and disabled through our portal, they may have switched from active to
-        inactive or vice versa multiple times in one quarter, so this wasn't
-        just a trivial MongoDB query.
+        inactive or vice versa multiple times in one quarter, so this
+        wasn&apos;t just a trivial MongoDB query.
       </p>
       <p>
         This, you might have realized, is exactly the maximum overlapping
@@ -179,7 +180,7 @@ const IntegrityExp = () => {
         implemented the algorithm.
       </p>
       <p>
-        Unfortunately, this lambda didn't work as expected on the first go.
+        Unfortunately, this lambda didn&apos;t work as expected on the first go.
         Since the quarter was scheduled to end on March 15 and I had only
         started the project when March already began, I was rushing towards the
         end and remember staying at work late on Friday, March 12 deploying the
@@ -187,8 +188,8 @@ const IntegrityExp = () => {
         but it was sent at the wrong hour and no vehicle data was actually on it
         due to a mistake I made on our Mustache template. I fixed these problems
         that day and made sure the correct email got sent out, but this taught
-        me to thoroughly test all of my work and that you can't rush software
-        engineering!
+        me to thoroughly test all of my work and that you can&apos;t rush
+        software engineering!
       </p>
       <p>
         Another cool feature I got to work on came from a client request. At
@@ -197,13 +198,14 @@ const IntegrityExp = () => {
         way to see where their trucks were from our portal.
       </p>
       <p>
-        This wasn't too much work- all I really had to do was grab the vehicle's
-        location data if it existed in a stored message object and show it on a
-        map. I had complete control over researching third party map APIs so I
-        ended up on picking{" "}
+        This wasn&apos;t too much work- all I really had to do was grab the
+        vehicle&apos;s location data if it existed in a stored message object
+        and show it on a map. I had complete control over researching third
+        party map APIs so I ended up on picking{" "}
         <a
           href="https://react-leaflet.js.org/"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           React Leaflet
@@ -222,49 +224,51 @@ const IntegrityExp = () => {
       </p>
       <p>
         From here on out, I started doing a even more interesting work. Frankly,
-        there's so much left that I want to write and this whole entry is
-        getting really long already, so I'm gonna skip the relatively small,
-        boring tickets like abstracting table names and updating user
+        there&apos;s so much left that I want to write and this whole entry is
+        getting really long already, so I&apos;m gonna skip the relatively
+        small, boring tickets like abstracting table names and updating user
         permissions that I did.
       </p>
       <p>
         There was really only one big project I took on in April which was
-        exporting table data to a CSV file. This project wasn't super technical.
-        What it was, though, was a ton of documentation reading to figure out
-        why certain API functions weren't working, user experience work to find
-        the best way to provide our clients with a time estimate on their
-        download, and nginx debugging to stop our network connection from
-        dropping and throwing off our exported data.
+        exporting table data to a CSV file. This project wasn&apos;t super
+        technical. What it was, though, was a ton of documentation reading to
+        figure out why certain API functions weren&apos;t working, user
+        experience work to find the best way to provide our clients with a time
+        estimate on their download, and nginx debugging to stop our network
+        connection from dropping and throwing off our exported data.
       </p>
       <p>
         <u>May</u>
       </p>
       <p>
         Four months into co-op, I finally got to work on the core OTA system! I
-        probably can't go into all of the details of the system for legal
+        probably can&apos;t go into all of the details of the system for legal
         reasons, but basically we managed an extremely complex deterministic
         finite automaton that conformed to the{" "}
         <a
           href="https://www.openmobilealliance.org/release/DM/V2_0-20150122-C/OMA-TS-DM_Protocol-V2_0-20150122-C.pdf"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           Open Mobile Alliance Device Management (OMADM) Protocol
         </a>
-        . This is essentially a standard for how "DM Servers", which Integrity
-        hosted, can communicate with and serve updates to "DM Clients", which
-        were devices installed on our clients' vehicles. I spent at least a few
-        weeks researching the OMADM Protocol, taking notes on the above 106 page
-        spec, and understanding our implementation of it before I felt
-        comfortable starting to update our system.
+        . This is essentially a standard for how &quot;DM Servers&quot;, which
+        Integrity hosted, can communicate with and serve updates to &quot;DM
+        Clients&quot;, which were devices installed on our clients&apos;
+        vehicles. I spent at least a few weeks researching the OMADM Protocol,
+        taking notes on the above 106 page spec, and understanding our
+        implementation of it before I felt comfortable starting to update our
+        system.
       </p>
       <p>
         As I mentioned, Integrity already had the architecture in place to
-        handle communication with vehicles. On some of our clients' devices,
-        though, we were seeing that a system-wide setting was causing those
-        devices to contact us far too often. This often caused an influx of
-        update requests, resulting in increased latency and higher bills for our
-        clients.
+        handle communication with vehicles. On some of our clients&apos;
+        devices, though, we were seeing that a system-wide setting was causing
+        those devices to contact us far too often. This often caused an influx
+        of update requests, resulting in increased latency and higher bills for
+        our clients.
       </p>
       <p>
         To fix this, our clients wanted to be able to set rate limits through
@@ -277,19 +281,19 @@ const IntegrityExp = () => {
       </p>
       <p>
         Building this out was understatedly difficult. There were so many moving
-        parts, both big and small. I had to figure out my new handler's place in
-        the overall architecture; call other microservices to compute the diff
-        between server and client configs; assume how the devices would act in
-        certain scenarios upon receiving packages; figure out alternative data
-        representations due to Mongo restrictions; create the UI to set config
-        parameters on our portal, which actually wasn't completed until June;
-        write three new end-to-end tests on a broken system; and extensively
-        test my software with a Russian hardware contractor who modified a
-        device in real-time while I set parameters up on the portal.
+        parts, both big and small. I had to figure out my new handler&apos;s
+        place in the overall architecture; call other microservices to compute
+        the diff between server and client configs; assume how the devices would
+        act in certain scenarios upon receiving packages; figure out alternative
+        data representations due to Mongo restrictions; create the UI to set
+        config parameters on our portal, which actually wasn&apos;t completed
+        until June; write three new end-to-end tests on a broken system; and
+        extensively test my software with a Russian hardware contractor who
+        modified a device in real-time while I set parameters up on the portal.
       </p>
       <p>
-        However, thanks to my manager's well-defined project requirements as
-        well as lots of assistance from Neil in understanding architecture
+        However, thanks to my manager&apos;s well-defined project requirements
+        as well as lots of assistance from Neil in understanding architecture
         context, this project was a huge success! Working with that contractor
         and getting to see the software I wrote work almost flawlessly in such a
         complex system was an amazing feeling, and I was so happy at the
@@ -300,21 +304,23 @@ const IntegrityExp = () => {
       </p>
       <p>
         After my device config work was up and running, even though I fulfilled
-        all of the project requirements, I wasn't satisfied yet. Midway through
-        May, I noticed that we needed to perform a lot of computationally-heavy
-        logical operations in order to calculate config diffs. There wasn't much
-        that could be done to make the algorithm faster.
+        all of the project requirements, I wasn&apos;t satisfied yet. Midway
+        through May, I noticed that we needed to perform a lot of
+        computationally-heavy logical operations in order to calculate config
+        diffs. There wasn&apos;t much that could be done to make the algorithm
+        faster.
       </p>
       <p>
         However, what we could do to speed things up drastically was add in a
         cache. Since we managed fleets of vehicles, vehicles within the same
         fleet usually had the same type of devices installed on them. This meant
-        that those vehicles' devices would almost always be at one of two config
-        states: the old config that all devices had at one point or the newest
-        config set on the portal. Therefore, if a fleet had 3000 vehicles, we
-        didn't actually need to calculate 3000 diffs; we could just calculate
-        one diff for the first vehicle that contacted us, cache it, and use it
-        for any other devices that were going to and from the same config!
+        that those vehicles&apos; devices would almost always be at one of two
+        config states: the old config that all devices had at one point or the
+        newest config set on the portal. Therefore, if a fleet had 3000
+        vehicles, we didn&apos;t actually need to calculate 3000 diffs; we could
+        just calculate one diff for the first vehicle that contacted us, cache
+        it, and use it for any other devices that were going to and from the
+        same config!
       </p>
       <p>
         The caching and updating part was cool to work on because it gave me
@@ -333,16 +339,16 @@ const IntegrityExp = () => {
       <p>
         To solve this, what I developed was a way to obtain a deterministic hash
         for a generic object. This essentially used a combination of key sorting
-        and depth-first path decomposition to get an object's unique array
+        and depth-first path decomposition to get an object&apos;s unique array
         representation. With that, we could simply go down the line and use each
         string in the array to produce a hash. This would become our Redis key
         and allowed us to map configs to diffs and diff updates.
       </p>
       <p>
         This entire device config project was by far one of the most technical
-        projects I've ever worked on, and I truly learned so much, had a ton of
-        fun brainstorming with coworkers, and loved implementing theoretical
-        solutions in code!
+        projects I&apos;ve ever worked on, and I truly learned so much, had a
+        ton of fun brainstorming with coworkers, and loved implementing
+        theoretical solutions in code!
       </p>
       <p>
         <u>July</u>
@@ -358,14 +364,15 @@ const IntegrityExp = () => {
         pass a dozen or so environment variables to the test script to skip
         tests in all other test groups and then go comment out the other tests
         in the test group of the one test you wanted. This second part was still
-        a hassle since test files weren't separated by test group so you had to
-        go hunt for your tests and make edits in many different files.
+        a hassle since test files weren&apos;t separated by test group so you
+        had to go hunt for your tests and make edits in many different files.
       </p>
       <p>
         Inspired by{" "}
         <a
           href="https://www.npmjs.com/package/aws-azure-login"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           aws-azure-login
@@ -374,6 +381,7 @@ const IntegrityExp = () => {
         <a
           href="https://www.npmjs.com/package/inquirer"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           Inquirer
@@ -387,6 +395,7 @@ const IntegrityExp = () => {
         <a
           href="https://docs.python.org/3/library/unittest.html"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           unittest
@@ -394,15 +403,15 @@ const IntegrityExp = () => {
         documentation, a whole directory restructuring job to support automatic
         test discovery, and a new docs page to explain what I learned about the
         e2e test process and how the new CLI played into that so that future
-        engineers wouldn't have to struggle with figuring our e2e system out.
-        However, in the end, this resulted in a vastly cleaner structure as well
-        as a quicker and more interactive way to run our e2e tests!
+        engineers wouldn&apos;t have to struggle with figuring our e2e system
+        out. However, in the end, this resulted in a vastly cleaner structure as
+        well as a quicker and more interactive way to run our e2e tests!
       </p>
       <p>
         My final large project at Integrity was establishing advanced search on
         our vehicles table. With thousands of vehicles on our portal, our table
-        columns only being able to support one filter at a time wasn't cutting
-        it when trying to find a very specific selection of vehicles.
+        columns only being able to support one filter at a time wasn&apos;t
+        cutting it when trying to find a very specific selection of vehicles.
         Additionally, our clients wanted the ability to search for vehicles
         according to what software versions their internal software parts were
         at, which was too complex and nested within the vehicle data to have as
@@ -411,14 +420,15 @@ const IntegrityExp = () => {
       </p>
       <p>
         After doing some research on how websites like Google and Twitter
-        handled advanced search, I didn't particularly like any of them so I
-        decided to homebrew ours. What I came up with was a simple form that
-        used radio buttons to add a filter on "SOFTWARE VERSIONS" or "VEHICLE
-        TAGS" and textboxs for each desired version or tag. Multiple filters
-        could be added and then processed to search for vehicles that matched
-        "ANY" or "ALL" of these filters. Later on, I also added support to
-        negate search parameters, such as if you wanted to get all vehicles that
-        did not have software AAPL_GUI at version 11.5.2.
+        handled advanced search, I didn&apos;t particularly like any of them so
+        I decided to homebrew ours. What I came up with was a simple form that
+        used radio buttons to add a filter on &quot;SOFTWARE VERSIONS&quot; or
+        &quot;VEHICLE TAGS&quot; and textboxs for each desired version or tag.
+        Multiple filters could be added and then processed to search for
+        vehicles that matched &quot;ANY&quot; or &quot;ALL&quot; of these
+        filters. Later on, I also added support to negate search parameters,
+        such as if you wanted to get all vehicles that did not have software
+        AAPL_GUI at version 11.5.2.
       </p>
       <p>
         The backend was simple. Upon form submission, all filters were sent to a
@@ -431,8 +441,8 @@ const IntegrityExp = () => {
       </p>
       <p>
         Despite some complex logic, our advanced vehicle search was extremely
-        performant. I didn't just see it in action and decide that- I also did
-        some benchmark testing after it was complete because, similar to my
+        performant. I didn&apos;t just see it in action and decide that- I also
+        did some benchmark testing after it was complete because, similar to my
         device config work, I wondered if caching could improve performance.
         However, I was afraid of premature optimization since, unlike device
         configs, cached advanced searches were not guaranteed to be reused, so I
@@ -449,7 +459,12 @@ const IntegrityExp = () => {
         with caching implemented and then the results were averaged.
       </p>
       <div className={styles.exp_image}>
-        <Image src={IntegrityTableImg} width={400} height={125} />
+        <Image
+          src={IntegrityTableImg}
+          width={400}
+          height={125}
+          alt="integrity table"
+        />
       </div>
       <p>
         What I found was that without caching, our search was blazing fast.
@@ -458,25 +473,25 @@ const IntegrityExp = () => {
         retrieving cached searches consistently took around 0.8 milliseconds,
         which made sense since a cache look up should be constant regardless of
         the filter complexity and size of the result. However, creating that
-        cache took so much more time that the numbers weren't even in the same
-        order of magnitude anymore.
+        cache took so much more time that the numbers weren&apos;t even in the
+        same order of magnitude anymore.
       </p>
       <p>
         Even in the ideal scenario of our clients having a complex filter that
         resulted in a large number of vehicles, caching only broke even
         time-wise after the cache was used over a thousand times. Aside from
         realistic advanced search usage concerns, the cache would also have to
-        be invalidated whenever new vehicles were added or when any vehicle's
-        data changed, so it was extremely unlikely we would ever break even on
-        this tradeoff. Furthermore, 2 milliseconds is already extremely fast to
-        begin with, so the 1.2 milliseconds we gain from cache look ups really
-        are negligable in such a small-scale system.
+        be invalidated whenever new vehicles were added or when any
+        vehicle&apos;s data changed, so it was extremely unlikely we would ever
+        break even on this tradeoff. Furthermore, 2 milliseconds is already
+        extremely fast to begin with, so the 1.2 milliseconds we gain from cache
+        look ups really are negligable in such a small-scale system.
       </p>
       <p>
-        After seeing the numbers, caching clearly wasn't worth it. Looking back,
-        I probably didn't even have to consider caching after seeing the no
-        cache solution averaged under 2 milliseconds. However, I learned a lot
-        from this experiment and was oddly satisfied seeing my theoretical
+        After seeing the numbers, caching clearly wasn&apos;t worth it. Looking
+        back, I probably didn&apos;t even have to consider caching after seeing
+        the no cache solution averaged under 2 milliseconds. However, I learned
+        a lot from this experiment and was oddly satisfied seeing my theoretical
         expectations validated by empirical results.
       </p>
       <p>
@@ -496,15 +511,16 @@ const IntegrityExp = () => {
       </p>
       <p>
         Unfortunately, aside from the one table with my advanced vehicle search
-        caching experiment results, there's no website link or powerpoint images
-        to see any of what's written above since nothing we built was
-        public-facing. However, if you want you can check out{" "}
+        caching experiment results, there&apos;s no website link or powerpoint
+        images to see any of what&apos;s written above since nothing we built
+        was public-facing. However, if you want you can check out{" "}
         <a
           href="https://www.ghsiss.com/"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
-          ISS' website
+          ISS&apos; website
         </a>{" "}
         for more info on this fantastic little company!
       </p>

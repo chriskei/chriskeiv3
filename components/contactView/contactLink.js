@@ -9,6 +9,7 @@ const ContactLink = ({ contactState, setHovering }) => {
     <a
       href={contactLinks[contactState]}
       target="_blank"
+      rel="noreferrer"
       onMouseEnter={() => setHovering(contactStates[contactState])}
       onMouseLeave={() => setHovering(contactStates.contact)}
     >

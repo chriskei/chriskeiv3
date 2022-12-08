@@ -12,7 +12,12 @@ const WorksenseExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={WorksenseHeroImg} width={450} height={400} />
+        <Image
+          src={WorksenseHeroImg}
+          width={450}
+          height={400}
+          alt="worksense"
+        />
       </div>
       <p>
         Worksense was a to-be-created workplace bias analytics tool that I
@@ -46,25 +51,31 @@ const WorksenseExp = () => {
       <p>
         A little over a month in, we started working on building the actual
         website by assigning each of the non-home pages to one designer and one
-        developer. I took responsibility over the "Request Demo" page which
-        consisted of a form to request a demo, an FAQ section, and another form
-        for general inquiries.
+        developer. I took responsibility over the &quot;Request Demo&quot; page
+        which consisted of a form to request a demo, an FAQ section, and another
+        form for general inquiries.
       </p>
       <div className={styles.exp_image}>
-        <Image src={WorksenseContactImg} width={450} height={275} />
+        <Image
+          src={WorksenseContactImg}
+          width={450}
+          height={275}
+          alt="worksense contact"
+        />
       </div>
       <p>
-        Building these forms wasn't difficult. What was fun about them, though,
-        was getting to integrate them with{" "}
+        Building these forms wasn&apos;t difficult. What was fun about them,
+        though, was getting to integrate them with{" "}
         <a
           href="https://www.netlify.com/products/forms/"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           Netlify
         </a>
-        ! Traditionally, lots of contact forms' submit buttons just open up an
-        email prompt in the user's build-in email app which is, in my
+        ! Traditionally, lots of contact forms&apos; submit buttons just open up
+        an email prompt in the user&apos;s build-in email app which is, in my
         experience, a terrible user experience. I was excited to find out that
         there is a better solution for this on Netlify that automatically
         collects responses and filters out spam messages for you.
@@ -82,11 +93,16 @@ const WorksenseExp = () => {
       </p>
       <p>
         After that, everyone tackled the homepage together. The section I
-        focused on was "Worksense in the Press" which featured an automatically
-        rotating carousel of shoutouts from a few organizations.
+        focused on was &quot;Worksense in the Press&quot; which featured an
+        automatically rotating carousel of shoutouts from a few organizations.
       </p>
       <div className={styles.exp_image}>
-        <Image src={WorksensePressImg} width={450} height={300} />
+        <Image
+          src={WorksensePressImg}
+          width={450}
+          height={300}
+          alt="worksense press"
+        />
       </div>
       <p>
         For this carousel, I remember having trouble with timers causing a
@@ -108,8 +124,8 @@ const WorksenseExp = () => {
       </p>
       <p>
         Although the tool ended up being scrapped after we completed the website
-        and the website isn't being hosted publicly anymore, it was a great idea
-        to help educate others about biases that they may not have been
+        and the website isn&apos;t being hosted publicly anymore, it was a great
+        idea to help educate others about biases that they may not have been
         conscious about!
       </p>
       <p>
@@ -117,6 +133,7 @@ const WorksenseExp = () => {
         <a
           href="https://github.com/chriskei/worksense-analytics"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           link
@@ -125,6 +142,7 @@ const WorksenseExp = () => {
         <a
           href="https://web.archive.org/web/20220125020151/https://worksenseanalytics.com/"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           link

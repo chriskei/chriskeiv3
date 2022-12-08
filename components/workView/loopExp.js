@@ -8,7 +8,7 @@ const LoopExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={LoopHeroImg} width={450} height={400} />
+        <Image src={LoopHeroImg} width={450} height={400} alt="loop" />
       </div>
       <p>
         Loop was an e-commerce website that my Scout team built for a healthy
@@ -21,14 +21,14 @@ const LoopExp = () => {
       </p>
       <p>
         In the fall semester, I took graduate level Machine Learning and Pattern
-        Recognition. I knew the class would be challenging, but didn't know it
-        would be the most challenging course of my college career.
+        Recognition. I knew the class would be challenging, but didn&apos;t know
+        it would be the most challenging course of my college career.
       </p>
       <p>
         I also wanted to get more involved in clubs that year to meet new
         people, so I became the Corporate Relations Chair for the Society of
         Asian Scientists and Engineers (SASE) and a Developer in Scout, as you
-        might've seen in the Worksense blurb!
+        might&apos;ve seen in the Worksense blurb!
       </p>
       <p>
         Tack on the search for a second co-op and difficulties seeing friends
@@ -40,8 +40,8 @@ const LoopExp = () => {
         year, I was thinking of taking it easy and not doing any
         extracurriculars. That is, until I started feeling the FOMO. After a
         full, happy year of making lots of new friends, I thought my fall
-        semester would be "lame" if I didn't interact with the community in some
-        way, especially since I was moving off campus.
+        semester would be &quot;lame&quot; if I didn&apos;t interact with the
+        community in some way, especially since I was moving off campus.
       </p>
       <p>
         So that summer, I caved in and applied to Scout as a Developer again.
@@ -61,11 +61,11 @@ const LoopExp = () => {
       </p>
       <p>
         I know this was a lot of info about everything not related to Loop, but
-        because of all of this work that I had to do, I really couldn't focus on
-        Scout. In October, when Scout had their annual retreat, I really wanted
-        to go since we weren't able to have an in-person retreat the previous
-        year, but after my Group Theory midterm got pushed back a week, I knew
-        it wouldn't be the responsible thing to do.
+        because of all of this work that I had to do, I really couldn&apos;t
+        focus on Scout. In October, when Scout had their annual retreat, I
+        really wanted to go since we weren&apos;t able to have an in-person
+        retreat the previous year, but after my Group Theory midterm got pushed
+        back a week, I knew it wouldn&apos;t be the responsible thing to do.
       </p>
       <p>
         As for the actual website itself, that was also a blur. When we first
@@ -76,12 +76,13 @@ const LoopExp = () => {
         <a
           href="https://shopify.dev/custom-storefronts/tools/js-buy"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           Buy SDK
         </a>{" "}
         since we were all proficient in React and JavaScript, but decided
-        against it because we were afraid our client wouldn't know how to
+        against it because we were afraid our client wouldn&apos;t know how to
         maintain the website and it looked like there were way too many Shopify
         functionalities we would need to build support for.
       </p>
@@ -90,13 +91,14 @@ const LoopExp = () => {
         <a
           href="https://github.com/Shopify/dawn"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           Dawn
         </a>{" "}
-        starter theme though, we were pleasantly surprised. Liquid wasn't too
-        difficult to work with, it was really just enhanced HTML and reminded me
-        of Moustache templates.
+        starter theme though, we were pleasantly surprised. Liquid wasn&apos;t
+        too difficult to work with, it was really just enhanced HTML and
+        reminded me of Moustache templates.
       </p>
       <p>
         What was a huge pain, though, was the massive pile of starter code and
@@ -117,21 +119,21 @@ const LoopExp = () => {
       </p>
       <p>
         For the new couple of weeks though, development was essentially at a
-        stand still. On the devs' side, all three of us were getting slammed
-        with neverending waves of assignments and midterms. Thankfully, both our
-        project lead and client were very understanding, and I promised that we
-        would finish the website by the handoff date.
+        stand still. On the devs&apos; side, all three of us were getting
+        slammed with neverending waves of assignments and midterms. Thankfully,
+        both our project lead and client were very understanding, and I promised
+        that we would finish the website by the handoff date.
       </p>
       <p>
         During this intersession, we also lost contact with one of our devs. At
-        some point, he just stopped showing up to meetings, didn't respond to
-        our Slack messages, and wasn't doing any work. I worked with Maggie to
-        try texting him and asking his close friends if they could contact him
-        for us, but he never came back. To be honest though, I wasn't too angry.
-        I knew there wasn't anything we could do- if he decided he didn't want
-        to be on the team anymore then that was that. All I knew was I had
-        promised our client a working website, and as Tech Lead, I was going to
-        deliver on that no matter what.
+        some point, he just stopped showing up to meetings, didn&apos;t respond
+        to our Slack messages, and wasn&apos;t doing any work. I worked with
+        Maggie to try texting him and asking his close friends if they could
+        contact him for us, but he never came back. To be honest though, I
+        wasn&apos;t too angry. I knew there wasn&apos;t anything we could do- if
+        he decided he didn&apos;t want to be on the team anymore then that was
+        that. All I knew was I had promised our client a working website, and as
+        Tech Lead, I was going to deliver on that no matter what.
       </p>
       <p>
         I really wish I could add more technical details here, but to be honest,
@@ -154,6 +156,7 @@ const LoopExp = () => {
         <a
           href="https://loopchocolate.com/"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           link

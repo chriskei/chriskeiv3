@@ -8,18 +8,23 @@ const DraftkingsExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={DraftkingsDfsImg} width={550} height={300} />
+        <Image
+          src={DraftkingsDfsImg}
+          width={550}
+          height={300}
+          alt="draftkings dfs"
+        />
       </div>
       <p>
-        I'm currently a software engineer at DraftKings! In June 2022, I joined
-        the Creative team and began managing and enhancing the system that
-        stakeholders use to create landing pages. Out of my small team of four
-        engineers, I'd say my niche lies in improving inefficiencies in our data
-        layer and optimzing our build process.
+        I&apos;m currently a software engineer at DraftKings! In June 2022, I
+        joined the Creative team and began managing and enhancing the system
+        that stakeholders use to create landing pages. Out of my small team of
+        four engineers, I&apos;d say my niche lies in improving inefficiencies
+        in our data layer and optimzing our build process.
       </p>
       <p>
-        It's too early to go through a breakdown of my entire DraftKings story,
-        but here are some highlights of my six months so far:
+        It&apos;s too early to go through a breakdown of my entire DraftKings
+        story, but here are some highlights of my six months so far:
       </p>
       <ul>
         <li>
@@ -31,6 +36,7 @@ const DraftkingsExp = () => {
           <a
             href="https://www.draftkings.com/reignmakers-football"
             target="_blank"
+            rel="noreferrer"
             className={styles.exp_link}
           >
             Reignmakers Football
@@ -47,7 +53,7 @@ const DraftkingsExp = () => {
           forego 15 minute delays and instead see their page changes instantly
         </li>
         <li>
-          Added an option for modals to be uncrawlable per the SEO team's
+          Added an option for modals to be uncrawlable per the SEO team&apos;s
           request
         </li>
         <li>
@@ -64,7 +70,7 @@ const DraftkingsExp = () => {
         </li>
         <li>
           Designed a way for stakeholders to self-service custom fonts and style
-          an entire page's typography consistently
+          an entire page&apos;s typography consistently
         </li>
         <li>
           And finally, at this moment I am leading efforts to establish a robust
@@ -76,6 +82,7 @@ const DraftkingsExp = () => {
         <a
           href="https://www.draftkings.com/"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           link

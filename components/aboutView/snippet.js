@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import styles from "@styles/aboutView.module.css";
 
-const Snippet = ({ imgSide, imgSrc, children }) => {
+const Snippet = ({ imgSide, imgSrc, children, alt }) => {
   const imageContainer = useMemo(
     () => (
       <div className={styles.image_container}>
@@ -12,10 +12,11 @@ const Snippet = ({ imgSide, imgSrc, children }) => {
           width={400}
           height={400}
           className={styles.circular_image}
+          alt={alt}
         />
       </div>
     ),
-    [imgSrc, styles]
+    [imgSrc, alt]
   );
 
   return (

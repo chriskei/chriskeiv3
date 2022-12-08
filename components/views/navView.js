@@ -22,6 +22,7 @@ const NavView = () => {
               imgSrc={InfoIcon}
               imgSize={44}
               className={styles.icon_container}
+              alt="info"
             />
           </div>
           <div className={styles.icons_container}>
@@ -30,18 +31,21 @@ const NavView = () => {
               imgSrc={AstronautGif}
               imgSize={300}
               className={styles.icon_container}
+              alt="astronaut"
             />
             <ViewImage
               thisView={viewMap.workView}
               imgSrc={WebsiteGif}
               imgSize={300}
               className={styles.icon_container}
+              alt="website"
             />
             <ViewImage
               thisView={viewMap.contactView}
               imgSrc={AirplaneGif}
               imgSize={300}
               className={`${styles.icon_container} ${styles.fade_sides}`}
+              alt="airplane"
             />
           </div>
         </div>

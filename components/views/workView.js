@@ -25,16 +25,16 @@ const expListItems = [
 ];
 
 const expDetails = [
-  <SevenExp />,
-  <PongExp />,
-  <WorksenseExp />,
-  <LoopExp />,
-  <SolariaExp />,
-  <IntegrityExp />,
-  <DraftkingsExp />,
+  <SevenExp key="seven" />,
+  <PongExp key="pong" />,
+  <WorksenseExp key="worksense" />,
+  <LoopExp key="loop" />,
+  <SolariaExp key="solaria" />,
+  <IntegrityExp key="integrity" />,
+  <DraftkingsExp key="draftkings" />,
 ];
 
-const workView = () => {
+const WorkView = () => {
   const [expIdx, setExpIdx] = useState(0);
 
   return (
@@ -59,4 +59,4 @@ const workView = () => {
   );
 };
 
-export default workView;
+export default WorkView;

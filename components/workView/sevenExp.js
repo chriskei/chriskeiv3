@@ -8,7 +8,7 @@ const SevenExp = () => {
   return (
     <>
       <div className={styles.exp_image}>
-        <Image src={SevenImg} width={400} height={300} />
+        <Image src={SevenImg} width={400} height={300} alt="seven" />
       </div>
       <p>7PM was the first full stack website that I built on my own!</p>
       <p>
@@ -24,9 +24,9 @@ const SevenExp = () => {
       </p>
       <p>
         The first thing I needed to figure out was how to host the website. Even
-        though I probably could've just submitted my source code and had them
-        load up the page locally, learning more about this process was what I
-        was really going after when I decided to build a website and I knew it
+        though I probably could&apos;ve just submitted my source code and had
+        them load up the page locally, learning more about this process was what
+        I was really going after when I decided to build a website and I knew it
         would be valuable knowledge in the future. So during my next 1-on-1 at
         work with my mentor Tony, I asked him if he could give me a few pointers
         and he told me to check out Heroku!
@@ -36,6 +36,7 @@ const SevenExp = () => {
         <a
           href="https://medium.com/@chloechong.us/how-to-deploy-a-create-react-app-with-an-express-backend-to-heroku-32decfee6d18"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           this
@@ -48,16 +49,16 @@ const SevenExp = () => {
         When I had that foundation in place, I was finally able to focus on
         interacting with the API and designing the UI. Around now was also when
         I committed to the idea of using Yelp data to help users find
-        restaurants to go to when they didn't know what to eat.
+        restaurants to go to when they didn&apos;t know what to eat.
       </p>
       <p>
         Since I was on a time crunch given my work and gym schedule, I decided
         to achieve this goal in a very simple manner. By giving users five
-        random cuisines, I could encourage them to try new cuisines they hadn't
-        had before and they didn't have to go through 100+ cuisines just to find
-        a restaurant. I also made the form require minimal input for the same
-        reason; the user just had to enter the price range and distance of
-        restaurants they wanted to see.
+        random cuisines, I could encourage them to try new cuisines they
+        hadn&apos;t had before and they didn&apos;t have to go through 100+
+        cuisines just to find a restaurant. I also made the form require minimal
+        input for the same reason; the user just had to enter the price range
+        and distance of restaurants they wanted to see.
       </p>
       <p>
         At this point, the website was spitting out relevant restaurants! It was
@@ -67,9 +68,9 @@ const SevenExp = () => {
       <p>
         So to make the website more interactive, I decided to use the Mapbox API
         to render a map that would plot the locations of the relevant
-        restaurants. Upon clicking the markers, you'd be able to see info about
-        that restaurant including its cuisine and price range as well as a link
-        to its Yelp entry for more information.
+        restaurants. Upon clicking the markers, you&apos;d be able to see info
+        about that restaurant including its cuisine and price range as well as a
+        link to its Yelp entry for more information.
       </p>
       <p>
         Once the map was complete, there were just a few small finishing touches
@@ -90,6 +91,7 @@ const SevenExp = () => {
         <a
           href="http://sevenpm.herokuapp.com/"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           link
@@ -98,6 +100,7 @@ const SevenExp = () => {
         <a
           href="https://github.com/chriskei/sevenpm"
           target="_blank"
+          rel="noreferrer"
           className={styles.exp_link}
         >
           link

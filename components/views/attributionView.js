@@ -10,10 +10,10 @@ const AttributionView = () => {
     <ViewContext.Consumer>
       {({ currentView }) => (
         <CommonView thisView={viewMap.attributionView} thisViewStyles={styles}>
-          <h2>Thank you!</h2>
+          <h2>Thank you :)</h2>
           <p>
             My website could not have been made possible without the help of
-            these wonderful free resources:
+            these wonderful free resources!
           </p>
           <ul>
             <li
@@ -24,6 +24,7 @@ const AttributionView = () => {
               <a
                 href="https://www.awwwards.com/inspiration/cursor-interaction-playing-with-words"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.link_container}
               >
                 Awwwards
@@ -38,6 +39,7 @@ const AttributionView = () => {
               <a
                 href="https://icons8.com"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.link_container}
               >
                 Icons8
@@ -52,6 +54,7 @@ const AttributionView = () => {
               <a
                 href="https://feathericons.com"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.link_container}
               >
                 Feather
@@ -66,6 +69,7 @@ const AttributionView = () => {
               <a
                 href="https://coolors.co"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.link_container}
               >
                 Coolors
@@ -81,6 +85,7 @@ const AttributionView = () => {
               <a
                 href="https://fontswan.com/dune-font"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.link_container}
               >
                 FontSwan
@@ -95,6 +100,7 @@ const AttributionView = () => {
               <a
                 href="https://font.gooova.com/fonts/14316/cocomat-pro-font.html"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.link_container}
               >
                 Gooova Fonts
@@ -109,6 +115,7 @@ const AttributionView = () => {
               <a
                 href="https://css-tricks.com/practical-css-scroll-snapping"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.link_container}
               >
                 CSS Tricks
@@ -124,6 +131,7 @@ const AttributionView = () => {
               <a
                 href="https://github.com/nanxiaobei/react-spring-dnd"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.link_container}
               >
                 Nan Xiao Bei
@@ -139,6 +147,7 @@ const AttributionView = () => {
               <a
                 href="https://www.youtube.com/watch?v=T33NN_pPeNI"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.link_container}
               >
                 Fireship

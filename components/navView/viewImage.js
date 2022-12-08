@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { ViewContext } from "@pages/home";
 
-const ViewImage = ({ thisView, imgSrc, imgSize, className }) => {
+const ViewImage = ({ thisView, imgSrc, imgSize, className, alt }) => {
   return (
     <ViewContext.Consumer>
       {({ setCurrentView, setLastOtherView }) => (
@@ -19,6 +19,7 @@ const ViewImage = ({ thisView, imgSrc, imgSize, className }) => {
             width={imgSize}
             height={imgSize}
             priority={true}
+            alt={alt}
           />
         </div>
       )}
