@@ -10,12 +10,17 @@
   top: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  justify-content: space-evenly;
-  width: 75%;
+  justify-content: center;
+  width: 872px;
 }
 
 .text_container {
   align-self: center;
+  margin-left: 2rem;
+}
+
+.text_headline {
+  margin: 0;
 }
 
 .text_main {
@@ -27,7 +32,7 @@
   background-color: var(--dark-blue-bg);
   display: flex;
   width: fit-content;
-  padding: 1rem;
+  padding: 0.7rem;
   border-radius: 8px;
   cursor: pointer;
 }

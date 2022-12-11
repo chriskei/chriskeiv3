@@ -17,11 +17,11 @@ const FourOhFour = () => {
           alt="blueprint"
         />
         <div className={styles.text_container}>
-          <h2>Whoops!</h2>
+          <h2 className={styles.text_headline}>Whoops!</h2>
           <p>You found a page off of the blueprint.</p>
           <Link href="/home">
             <div className={styles.button_container}>
-              <p className={styles.text_main}>Main page</p>
+              <p className={styles.text_main}>Home base</p>
               <Image
                 src={ChevronUpIcon}
                 width={32}

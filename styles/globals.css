@@ -57,6 +57,7 @@ a {
   --orange-accent: rgb(255, 209, 91);
   --blue-bg: rgb(26, 171, 218);
   --blue-accent: rgb(18, 77, 156);
+  --mobile-max-width: 1000px;
 }
 
 .visible_view {

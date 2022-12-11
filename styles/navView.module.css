@@ -11,19 +11,29 @@
     var(--pastel-blue-darker-bg),
     var(--pastel-blue-bg)
   );
+}
+
+.name_inner_container {
   display: flex;
   justify-content: space-between;
   cursor: default;
+  max-width: 872px;
+  margin: 0 auto;
 }
 
 .icons_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icons_inner_container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .icon_container {
