@@ -40,9 +40,13 @@ const WorkView = () => {
   return (
     <CommonView thisView={viewMap.workView} thisViewStyles={styles}>
       <div className={styles.content_container}>
-        <SpringList onDragEnd={(order) => setExpIdx(order[0])}>
+        <div className={styles.exp_list_container}>
           {expListItems.map((item, index) => (
-            <div key={index} className={styles.exp_list_item_container}>
+            <div
+              key={index}
+              onClick={() => setExpIdx(index)}
+              className={styles.exp_list_item_container}
+            >
               <p
                 className={`${styles.exp_list_item} ${
                   expIdx === index && styles.selected_exp_list_item
@@ -52,7 +56,7 @@ const WorkView = () => {
               </p>
             </div>
           ))}
-        </SpringList>
+        </div>
         <div className={styles.exp_container}>{expDetails[expIdx]}</div>
       </div>
     </CommonView>

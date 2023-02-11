@@ -3,6 +3,10 @@
   width: 100vw;
 }
 
+.text_header {
+  margin: 0;
+}
+
 .link_container {
   color: var(--blue-accent);
 }

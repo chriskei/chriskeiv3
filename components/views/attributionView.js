@@ -10,7 +10,7 @@ const AttributionView = () => {
     <ViewContext.Consumer>
       {({ currentView }) => (
         <CommonView thisView={viewMap.attributionView} thisViewStyles={styles}>
-          <h2>Thank you :)</h2>
+          <h2 className={styles.text_header}>Thank you :)</h2>
           <p>
             My website could not have been made possible without the help of
             these wonderful free resources!
